@@ -1,44 +1,14 @@
 class Solution {
 public:
-    string toBinary(int n){
-    string s="";
-    while(n>0){
-        int x=n%2;
-        n/=2;
-        s+=to_string(x);
-    }
-    reverse(s.begin(),s.end());
-    return s;
-}
+    int minBitFlips(int start,int goal){
+    int ans=0;
+    int x=start^goal;
 
-string addLeadingZeroes(string binary,int n){
-    while(binary.length()!=n){
-        binary="0"+binary;
-    }
-    return binary;
-}
+    while(x!=0){
+        ans+=x&1;
 
-int minBitFlips(int start, int goal) {
-    string binStart=toBinary(start);
-    string binGoal=toBinary(goal);
-    int startLen=binStart.length();
-    int goalLen=binGoal.length();
-
-    if(startLen<goalLen){
-        binStart=addLeadingZeroes(binStart,binGoal.length());
-
+        x>>=1;
     }
-    else{
-        binGoal=addLeadingZeroes(binGoal, binStart.length());
-    }
-    // cout<<binStart<<endl;
-    // cout<<binGoal<<endl;
-    int count=0;
-    for(int i=0;i<binGoal.length();i++){
-        if(binGoal[i]!=binStart[i]){
-            count++;
-        }
-    }
-    return count;
+    return ans;
 }
 };
