@@ -11,29 +11,19 @@
  */
 class Solution {
 public:
-    int findHeight(TreeNode* root){
+    int height(TreeNode* root, int& dia){
     if(root==NULL){
         return 0;
     }
-    int lh=findHeight(root->left);
-    int rh=findHeight(root->right);
+    int lh=height(root->left, dia);
+    int rh=height(root->right,dia);
+    dia=max(dia, rh+lh);
     return 1+max(lh,rh);
 }
 
-void findDia(TreeNode* root, int& maxi){
-    if(root==NULL){
-        return;
-    }
-    int lh=findHeight(root->left);
-    int rh=findHeight(root->right);
-    maxi=max(maxi,lh+rh);
-    findDia(root->left,maxi);
-    findDia(root->right,maxi);
-}
-
 int diameterOfBinaryTree(TreeNode* root) {
-    int maxi=0;
-    findDia(root,maxi);
-    return maxi;        
-}
+        int dia=0;
+        height(root,dia);
+        return dia;
+    }
 };
