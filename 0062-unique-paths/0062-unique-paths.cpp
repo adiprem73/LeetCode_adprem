@@ -1,29 +1,19 @@
 class Solution {
 public:
     int uniquePaths(int m, int n){
-    vector<vector<int>> dp(m, vector<int>(n, -1));
-    dp[0][0]=1; //base case: only one wya to reach the start from (0,0)
+    vector<int> dp(n, 0);
+    dp[0] = 1;  // base case
 
-    for(int i=0; i<m;i++){
-        for(int j=0;j<n;j++){
-            if(!(i==0&&j==0)){ //excludig the base case from the loops
-
-                int right=0;
-                int down=0;
-                if(j>0){
-                    right= dp[i][j-1];
-                }
-
-                if(i>0){
-                    down= dp[i-1][j];
-                }
-                dp[i][j] = down+right;
+    for(int i = 0; i < m; i++){
+        for(int j = 0; j < n; j++){
+            if(j > 0){
+                dp[j] = dp[j] + dp[j-1]; // current cell = from top (dp[j]) + from left (dp[j-1])
             }
+            // if j==0, dp[j] stays same (only from top, which is already dp[j])
         }
     }
 
-    
-
-    return dp[m-1][n-1];
+    return dp[n-1];
 }
+
 };
