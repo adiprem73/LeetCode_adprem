@@ -1,32 +1,28 @@
 class Solution {
 public:
-    int minPathSum(vector<vector<int>>& grid) {
+    int minPathSum(vector<vector<int>> & grid){
     int n=grid.size();
     int m=grid[0].size();
-    vector<vector<int>> dp(n, vector<int>(m,1e9));
-    
-    dp[0][0]= grid[0][0];
+    //observations: for computing the current element we only need the current row and the previous row
+
+    vector<int> prev(m, 1e9);
 
     for(int i=0;i<n;i++){
+        vector<int> curr(m,1e9);
         for(int j=0;j<m;j++){
-            if(i==0 && j==0)continue;
-            
-            int left=1e9, up=1e9;
-
-            if(j>0){
-                left=dp[i][j-1];
+            if(i==0 && j==0){
+                curr[j]= grid[0][0];
+                continue;
             }
+            int left = (j>0)? curr[j-1] : 1e9;
 
-            if(i>0){
-                up= dp[i-1][j];
-            }
+            int up = (i>0)? prev[j] : 1e9;
 
-            dp[i][j]= min(left, up)+ grid[i][j];
+            curr[j]= grid[i][j]+ min(left, up);
             
         }
+        prev=curr;
     }
-
-
-    return dp[n-1][m-1];
-    }
+    return prev[m-1];
+}
 };
