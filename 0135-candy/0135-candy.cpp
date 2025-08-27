@@ -1,21 +1,38 @@
 class Solution {
 public:
     int candy(vector<int>& ratings) {
-    int n = ratings.size();
-    vector<int> candies(n, 1);
+    int sum=1;
+    int i=1;
+    int n=ratings.size();
+    while(i<n){
+        //flat surface
+        if(ratings[i]==ratings[i-1]){
+            sum+=1;
+            i++;
+            continue;
+        }
 
-    // Left to right
-    for (int i = 1; i < n; ++i) {
-        if (ratings[i] > ratings[i - 1])
-            candies[i] = candies[i - 1] + 1;
-    }
+        //upward slope
+        int peak=1;
+        while(i<n&& ratings[i]>ratings[i-1]){
+            peak+=1;
+            sum +=peak;
+            i++;
+        }
 
-    // Right to left
-    for (int i = n - 2; i >= 0; --i) {
-        if (ratings[i] > ratings[i + 1])
-            candies[i] = max(candies[i], candies[i + 1] + 1);
-    }
-
-    return accumulate(candies.begin(), candies.end(), 0);
+        //downward slope
+        int down=0;
+        while(i<n && ratings[i]<ratings[i-1]){
+            down+=1;
+            sum+=down;
+            i++;
+        }
+        
+        down++;
+        if(down>peak){
+            sum+=down-peak;
+        }
+    } 
+    return sum;       
 }
 };
