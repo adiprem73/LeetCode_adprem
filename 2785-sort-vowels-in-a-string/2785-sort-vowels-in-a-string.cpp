@@ -5,7 +5,7 @@ public:
         string v= "AEIOUaeiou";
         for(int i=0;i<s.length();i++){
             char ch=s[i];
-            if(v.find(ch)!=string::npos){
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
                 vowels.push_back(ch);
             }
         }
@@ -13,7 +13,7 @@ public:
         int ind=0;
         for(int i=0;i<s.length();i++){
             char ch=s[i];
-            if(v.find(ch)!=string::npos){
+            if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
                 s[i]= vowels[ind];
                 ind++;
             }
