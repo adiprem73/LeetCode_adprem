@@ -1,27 +1,33 @@
 class Solution {
 public:
     vector<int> findEvenNumbers(vector<int>& digits) {
-        set<int> ans;
+        vector<int> ans;
         int n= digits.size();
+        map<int,int> mp;
         for(int i=0;i<n;i++){
-            if(digits[i]%2==0){
-                for(int j=0;j<n;j++){
-                    for(int k=0;k<n;k++){
-                        if(digits[j]!=0 && j!=i && k!=j && k!=i){
-                            int num=digits[j]*100 + digits[k]*10 + digits[i];
-                            if(num>=100){
-                                ans.insert(num);
-                            }
-                            
-                        }
-                    }
+            mp[digits[i]]++;
+        }
+        for(int i=100;i<=999;i++){
+            if(i%2==0){
+            int x=i;
+            map<int,int> mp2;
+            while(x>0){
+                int d=x%10;
+                mp2[d]++;
+                x=x/10;
+            }
+            bool flag= true;
+            for(auto it: mp2){
+                if(it.second>mp[it.first]){
+                    flag= false;
+                    break;
                 }
             }
+            if(flag){
+                ans.push_back(i);
+            }
         }
-        vector<int> result;
-        for(auto it: ans){
-            result.push_back(it);
         }
-        return result;
+        return ans;
     }
 };
