@@ -60,9 +60,9 @@ public:
             bool flag = false;
             auto it= mp.find(tid);
             if(it!=mp.end()){
-                if (mp[tid].first == pri && mp[tid].second == uid)
+                if (it->second.first == pri && it->second.second == uid)
                 {
-                    mp.erase(tid);
+                    mp.erase(it);
                     return uid;
                 }
 
