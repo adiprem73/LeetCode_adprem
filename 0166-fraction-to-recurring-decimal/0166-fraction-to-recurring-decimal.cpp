@@ -3,6 +3,8 @@ public:
     string fractionToDecimal(int numerator, int denominator)
 {
 
+    if(numerator==0)return "0";
+
     string result;
 
     if((numerator<0 ^ denominator<0) && numerator!=0) result.push_back('-');
