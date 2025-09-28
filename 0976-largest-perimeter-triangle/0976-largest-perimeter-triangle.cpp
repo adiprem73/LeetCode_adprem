@@ -1,23 +1,19 @@
 class Solution {
 public:
-    int largestPerimeter(vector<int>& nums) {
-    sort(nums.begin(), nums.end());
-    int n = nums.size();
-    int maxi=0;
-    for (int k = n - 1; k >= 2; k--)
-    {
-        int i=0;
-        int j=k-1;
-        while(i<j){
-            if (nums[i] + nums[j] > nums[k])
-            {
-                maxi = max(maxi, nums[i] + nums[j] + nums[k]);
-                
-            }
-            i++;
+    static bool comp(int a, int b){
+    if(a>b)return true;
+    return false;
+}
+
+int largestPerimeter(vector<int> &nums)
+{
+    sort(nums.begin(), nums.end(), comp);
+    int n=nums.size();
+
+    for(int i=0;i<n-2;i++){
+        if(nums[i]<nums[i+1]+nums[i+2]){
+            return (nums[i]+nums[i+1]+nums[i+2]);
         }
-        
-    }
-    return maxi;
+    }return 0;
 }
 };
