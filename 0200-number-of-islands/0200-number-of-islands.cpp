@@ -1,39 +1,39 @@
 class Solution {
 public:
-    vector<int> dx = {0,1,0,-1};
-vector<int> dy = {-1,0,1,0};
+    int numIslands(vector<vector<char>> & grid){
+    int n=grid.size();
+    int m= grid[0].size();
 
-void dfs(int r, int c, vector<vector<char>> &grid, vector<vector<int>> &visit)
-{
-    visit[r][c] = 1;
-    int n = grid.size();
-    int m = grid[0].size();
-    
-    for (int i = 0; i < 4; i++)
-    {
-        int nrow = r + dx[i];
-        int ncol = c + dy[i];
-        if (nrow >= 0 && nrow < n && ncol >= 0 && ncol < m && visit[nrow][ncol] == 0 && grid[nrow][ncol] == '1')
-        {
-            dfs(nrow, ncol, grid, visit);
-        }
-    }
-}
+    vector<vector<int>> vis(n, vector<int>(m,0));
 
-int numIslands(vector<vector<char>> &grid)
-{
-    int n = grid.size();
-    int m = grid[0].size();
-    vector<vector<int>> visit(n, vector<int>(m, 0));
-    int cnt = 0;
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = 0; j < m; j++)
-        {
-            if (!visit[i][j] && grid[i][j] == '1')
-            {
-                dfs(i, j, grid, visit);
+    int cnt=0;
+    vector<int> dx={0,1,0,-1};
+    vector<int> dy={-1,0,1,0};
+    // cout << "hello" << endl;
+
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            if(vis[i][j]==0 && grid[i][j]=='1'){
+                // cout<<"hello"<<endl;
                 cnt++;
+                queue<pair<int,int>> q;
+                q.push({i,j});
+                vis[i][j]=1;
+                while(!q.empty()){
+                    auto it= q.front();
+                    q.pop();
+                    int r= it.first;
+                    int c= it.second;
+
+                    for(int k=0;k<4;k++){
+                        int nr= r+dx[k];
+                        int nc= c+dy[k];
+                        if(nr>=0 && nr<n && nc>=0 && nc<m && vis[nr][nc]==0 && grid[nr][nc]=='1'){
+                            q.push({nr,nc});
+                            vis[nr][nc]=1;
+                        }
+                    }
+                }
             }
         }
     }
