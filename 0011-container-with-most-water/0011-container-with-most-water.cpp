@@ -6,7 +6,7 @@ public:
         int r=n-1;
         int ans=INT_MIN;
         while(l<r){
-            cout<<height[l]<<"&"<<height[r]<<endl;
+            // cout<<height[l]<<"&"<<height[r]<<endl;
             ans=max(ans, min(height[l],height[r])*(r-l));
             if(height[l]<height[r]){
                 l++;
