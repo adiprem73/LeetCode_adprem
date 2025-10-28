@@ -1,98 +1,30 @@
 class Solution {
 public:
-    bool checkStartLeft(int pos, vector<int> nums){
-    // left direction
-    int n= nums.size();
-    bool dir= false;// 1 for rigt and 0 for left
-    while(pos<n && pos>=0){
-        if (nums[pos]==0){
-            if(dir){
-                pos++;
-            }
-            else{
-                pos--;
-            }
-        }
-        else if(nums[pos]>0){
-            nums[pos]--;
-            dir=!dir;
-            if(dir){
-                pos++;
-            }
-            else{
-                pos--;
-            }
-        }
-    }
-    for(int i=0;i<nums.size();i++){
-        if(nums[i]){
-            return false;
-        }
-    }
-    return true;
-}
 
-bool checkStartRight(int pos, vector<int> nums)
+    int countValidSelections(vector<int> &nums)
 {
-    // right direction
-    int n = nums.size();
-    bool dir = true; // 1 for rigt and 0 for left
-    while (pos < n && pos >= 0)
+    int n= nums.size();
+    int leftSum = 0;
+    int sum = accumulate(nums.begin(), nums.end(), 0);
+    int rightSum = sum;
+    int ans=0;
+    for (int i = 0; i < n; i++)
     {
-        if (nums[pos] == 0)
-        {
-            if (dir)
-            {
-                pos++;
+        if(nums[i]==0){
+            if(leftSum-rightSum>=0 && leftSum-rightSum<=1){
+                ans++;
             }
-            else
-            {
-                pos--;
+
+            if(rightSum-leftSum>=0 && rightSum-leftSum<=1){
+                ans++;
             }
         }
-        else if (nums[pos] > 0)
-        {
-            nums[pos]--;
-            dir = !dir;
-            if (dir)
-            {
-                pos++;
-            }
-            else
-            {
-                pos--;
-            }
+        else{
+            leftSum+= nums[i];
+            rightSum -= nums[i];
         }
     }
-    for (int i = 0; i < nums.size(); i++)
-    {
-        if (nums[i])
-        {
-            return false;
-        }
-    }
-    return true;
+    return ans;
 }
 
-int countValidSelections(vector<int>& nums) {
-    int count=0;
-    for(int i=0;i<nums.size();i++){
-        if(nums[i]==0){
-            if(checkStartLeft(i, nums)){
-                count++;
-                // cout<<i<<endl;
-                // cout<<checkStartLeft(i,nums)<<endl;
-                // cout<<checkStartRight(i, nums)<<endl;
-            }
-            if (checkStartRight(i, nums))
-            {
-                count++;
-                // cout<<i<<endl;
-                // cout<<checkStartLeft(i,nums)<<endl;
-                // cout<<checkStartRight(i, nums)<<endl;
-            }
-        }
-    }
-    return count;
-}
 };
