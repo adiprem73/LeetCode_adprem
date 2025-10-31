@@ -1,16 +1,15 @@
 class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
-        unordered_map<int,int> mp;
+        set<int> seen;
+        vector<int> duplicates;
         for(int i=0;i<nums.size();i++){
-            mp[nums[i]]++;
-        }
-        vector<int> vec;
-        for(auto it: mp){
-            if(it.second>1){
-                vec.push_back(it.first);
+            if(seen.count(nums[i])){
+                duplicates.push_back(nums[i]);
+            }else{
+                seen.insert(nums[i]);
             }
         }
-        return vec;
+        return duplicates;
     }
 };
