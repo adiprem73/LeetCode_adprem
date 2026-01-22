@@ -1,10 +1,9 @@
 class Solution {
 public:
     bool check(vector<int> nums){
-    vector<int> temp = nums;
-    sort(nums.begin(), nums.end());
-    // vprint(temp);
-    return temp==nums;
+    for(int i=0;i<nums.size()-1;i++){
+        if(nums[i]>nums[i+1])return false;
+    }return true;
 }
 
 int minimumPairRemoval(vector<int>& nums){
