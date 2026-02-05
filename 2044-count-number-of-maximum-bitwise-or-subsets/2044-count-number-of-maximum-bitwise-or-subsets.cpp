@@ -1,34 +1,31 @@
 class Solution {
 public:
-    void makeSubsets(vector<int> currArray, int currOR, int &maxOR, int ind, vector<int> & nums, vector<vector<int>>& ans){
+    void makeSubsets(vector<int> currArray, int currOR, int &maxOR, int ind, vector<int> & nums, int & cnt){
     if(ind == nums.size()){
         if(currOR> maxOR){
             maxOR = currOR;
-            ans.clear();
-            ans.push_back(currArray);
+            cnt=1;
         }else if(currOR ==  maxOR){
-            ans.push_back(currArray);
+            cnt++;
         }
         return;
     }
 
     currArray.push_back(nums[ind]);
-    makeSubsets(currArray, currOR | nums[ind], maxOR, ind+1, nums, ans);
+    makeSubsets(currArray, currOR | nums[ind], maxOR, ind+1, nums, cnt);
 
     // not-pick
     currArray.pop_back();
-    makeSubsets(currArray, currOR, maxOR, ind+1, nums, ans);
+    makeSubsets(currArray, currOR, maxOR, ind+1, nums, cnt);
 }
 
 int countMaxOrSubsets(vector<int> &nums)
 {
     vector<int> currArray;
-    vector<vector<int>> ans;
+    int cnt=0;
     int maxOR=INT_MIN;
-    makeSubsets(currArray, 0, maxOR, 0, nums, ans);
-    // for(auto it: ans){
-    //     vprint(it);
-    // }
-    return ans.size();
+    makeSubsets(currArray, 0, maxOR, 0, nums, cnt);
+    
+    return cnt;
 }
 };
