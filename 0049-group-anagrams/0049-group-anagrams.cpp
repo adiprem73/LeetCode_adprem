@@ -1,29 +1,16 @@
 class Solution {
 public:
-    map<char,int> hashed(string st){
-    map<char,int>mp;
-    for(char ch: st){
-        mp[ch]++;
-    }
-    return mp;
-}
-
-vector<vector<string>> groupAnagrams(vector<string> &strs)
-{
-    vector<bool> used(strs.size(), false);
-    vector<vector<string>> ans;
+    vector<vector<string>> groupAnagrams(vector<string> & strs){
+    unordered_map<string, vector<string>> mp;
     for(int i=0;i<strs.size();i++){
-        if(used[i]== false){
-            vector<string> curr;
-            auto m1 = hashed(strs[i]);
-            for(int j=0;j<strs.size();j++){
-                if(used[j]== false && hashed(strs[j])== m1){
-                    used[j]= true;
-                    curr.push_back(strs[j]);
-                }
-            }
-            ans.push_back(curr);
-        }
+        string key = strs[i];
+        sort(key.begin(), key.end());
+        mp[key].push_back(strs[i]);
+    }
+
+    vector<vector<string>> ans;
+    for(auto it: mp){
+        ans.push_back(it.second);
     }
     return ans;
 }
