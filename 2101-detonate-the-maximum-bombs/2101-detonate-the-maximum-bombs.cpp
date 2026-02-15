@@ -24,7 +24,8 @@ int maximumDetonation(vector<vector<int>>& bombs) {
             if(i!=j){
                 long long g = bombs[i][0] - bombs[j][0];
                 long long h = bombs[i][1] - bombs[j][1];
-                if (g*g + h*h <= bombs[i][2]*bombs[i][2])
+                long long r = bombs[i][2];
+                if (g*g + h*h <= r*r)
                 {
                     adj[i].push_back(j);
                 }
