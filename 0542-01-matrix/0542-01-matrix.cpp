@@ -1,44 +1,36 @@
 class Solution {
 public:
-    vector<vector<int>> updateMatrix(vector<vector<int>> & mat){
-    int n=mat.size();
-    int m=mat[0].size();
-    vector<vector<int>> vis(n, vector<int>(m,0));
-    vector<vector<int>> dist(n,vector<int>(m,0));
-
-    queue<pair<pair<int,int>,int>> q;
-    //declaring starting nodes
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
+    vector<vector<int>> updateMatrix(vector<vector<int>> &mat)
+{
+    // we will iterate from every zero and keep on updating the distance of each cell from it
+    queue<pair<int,int>>q;
+    int m = mat.size();
+    int n = mat[0].size();
+    // vector<vector<int>> ans(m, vector<int>(n, 1e9));
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
             if(mat[i][j]==0){
-                q.push({{i,j},0});
-                vis[i][j]=1;
-            }
-            else{
-                vis[i][j]=0;
+                q.push({i,j});
+            }else{
+                mat[i][j]= 1e9;
             }
         }
     }
-
-
-    vector<int> drow={-1,0,1,0};
-    vector<int> dcol={0,1,0,-1};
+    vector<int> dx={-1, 0, 1, 0};
+    vector<int> dy={0, 1, 0, -1};
     while(!q.empty()){
-        auto node=q.front();
-        int r=node.first.first;
-        int c=node.first.second;
-        int step= node.second;
+        auto node = q.front();
         q.pop();
-        dist[r][c]=step;
+        auto [x,y] = node;
         for(int i=0;i<4;i++){
-            int nrow=r+drow[i];
-            int ncol=c+dcol[i];
-            if(nrow>=0&&nrow<n&&ncol>=0&&ncol<m&&vis[nrow][ncol]==0){
-                vis[nrow][ncol]=1;
-                q.push({{nrow,ncol}, step+1});
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if(nx>=0 && nx<m && ny>=0 && ny<n && mat[nx][ny]> mat[x][y]+1){
+                q.push({nx,ny});
+                mat[nx][ny] = mat[x][y]+1;
             }
         }
     }
-    return dist;
+    return mat;
 }
 };
