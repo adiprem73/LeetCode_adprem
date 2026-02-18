@@ -1,39 +1,34 @@
 class Solution {
 public:
-    int numIslands(vector<vector<char>> & grid){
-    int n=grid.size();
-    int m= grid[0].size();
+    void dfs(int x, int y, vector<vector<bool>>& vis, vector<vector<char>> & grid){
+    vis[x][y]= true;
+    int m = grid.size();
+    int n = grid[0].size();
+    vector<int> dx = {-1, 0, 1, 0};
+    vector<int> dy = {0, 1, 0, -1};
+    for(int i=0;i<4;i++){
+        int nx = x+dx[i];
+        int ny = y+dy[i];
+        if(nx>=0 && nx<m && ny>=0 && ny<n && grid[nx][ny]=='1' && vis[nx][ny]==false){
+            dfs(nx, ny, vis, grid);
+        }
+    }
+}
 
-    vector<vector<int>> vis(n, vector<int>(m,0));
+int numIslands(vector<vector<char>> &grid)
+{
+    int m = grid.size();
+    int n= grid[0].size();
 
-    int cnt=0;
-    vector<int> dx={0,1,0,-1};
-    vector<int> dy={-1,0,1,0};
-    // cout << "hello" << endl;
+    vector<vector<bool>> vis(m, vector<bool> (n, false));
 
-    for(int i=0;i<n;i++){
-        for(int j=0;j<m;j++){
-            if(vis[i][j]==0 && grid[i][j]=='1'){
-                // cout<<"hello"<<endl;
+    int cnt =0;
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            if(vis[i][j]== false && grid[i][j] == '1'){
+                // cout<<"Hello"<<endl;
+                dfs(i, j, vis, grid);
                 cnt++;
-                queue<pair<int,int>> q;
-                q.push({i,j});
-                vis[i][j]=1;
-                while(!q.empty()){
-                    auto it= q.front();
-                    q.pop();
-                    int r= it.first;
-                    int c= it.second;
-
-                    for(int k=0;k<4;k++){
-                        int nr= r+dx[k];
-                        int nc= c+dy[k];
-                        if(nr>=0 && nr<n && nc>=0 && nc<m && vis[nr][nc]==0 && grid[nr][nc]=='1'){
-                            q.push({nr,nc});
-                            vis[nr][nc]=1;
-                        }
-                    }
-                }
             }
         }
     }
