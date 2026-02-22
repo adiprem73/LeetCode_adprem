@@ -1,27 +1,15 @@
 class Solution {
 public:
-    int binaryGap(int n) {
-    string s;
-    while(n>0){
-        s += to_string(n%2);
-        n /= 2;
-    }
+    int binaryGap(int N) {
+    int last = -1, ans = 0;
 
-    int ans = 0, x = 0;
-    bool counting = false;
-
-    for(int i = 0; i < s.length(); i++){
-        if(s[i] == '1'){
-            if(counting){
-                ans = max(ans, x);
-            }
-            counting = true;
-            x = 0;
-        }
-        else if(counting){
-            x++;
+    for (int i = 0; i < 32; ++i) {
+        if ((N >> i) & 1) {
+            if (last >= 0)
+                ans = max(ans, i - last);
+            last = i;
         }
     }
-    return ans==0? 0:ans+1;
+    return ans;
 }
 };
