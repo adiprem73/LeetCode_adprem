@@ -13,10 +13,15 @@ public:
 }
 
 vector<int> sortByBits(vector<int>& arr) {
+    unordered_map<int, int> bitsCnt;
+    for(auto it: arr){
+        bitsCnt[it] = func(it);
+    }
     sort(arr.begin(), arr.end(), [&](int a , int b){
-        if(func(a) != func(b))return func(a)<func(b);
+        if(bitsCnt[a] != bitsCnt[b])return bitsCnt[a]<bitsCnt[b];
         else return a<b;
     });
     return arr;
 }
 };
+
