@@ -1,55 +1,41 @@
 class Solution {
 public:
-    const long long MOD = 1e9+7;
-
-int countPaths(int n, vector<vector<int>>& roads) {
-    //make the adjacency list
-    vector<vector<pair<int,int>>> adj(n);
-    for(auto it:roads){
-        adj[it[0]].push_back({it[1], it[2]});
+    int countPaths(int n, vector<vector<int>> &roads)
+{
+    const long long MOD = 1e9 + 7;
+    vector<vector<pair<int,long long>>> adj(n);
+    for(auto it: roads){
+        adj[it[0]].push_back({it[1], it[2]}); //{node, time}
         adj[it[1]].push_back({it[0], it[2]});
     }
 
-    vector<long long> dist(n, 1e9); //distance array
-    vector<long long> ways(n, 0); //ways array
+    vector<long long> dist(n, LLONG_MAX);
+    vector<long long> ways(n,0);
 
-    priority_queue<
-        pair<long long,int>, //type of elements stored here(distance,node)
-        vector<pair<long long,int>>,  //the underllying contatiner used: a vector
-        greater<pair<long long,int>>   //the comparator: smallest element comes first
-    > q;
-    q.push({0,0});
-    dist[0]=0;
-    ways[0]=1;
+    priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int >>> pq;
 
-    while(!q.empty()){
-        auto it= q.top();
-        int node= it.second;
-        long long distance= it.first;
-        q.pop();
-        // cout<<"node : "<<node<<" distance : "<<distance<<endl;
+    dist[0] = 0;
+    ways[0] = 1;
+    pq.push({0,0});
 
-        for(auto iter: adj[node]){
-            int adjNode= iter.first;
-            int edgeWeight= iter.second;
-            // cout<<"adjacent Node : "<<adjNode<<endl;
-            // cout<<"edgeweight : "<<edgeWeight<<endl;
-            if(distance+edgeWeight< dist[adjNode]){
-                dist[adjNode]= distance+edgeWeight;
-                // cout<<"dist[adjNode]: "<<distance+edgeWeight<<endl;
-                q.push({distance+ edgeWeight, adjNode});
-                ways[adjNode]=ways[node];
+    while(!pq.empty()){
+        auto [d, node] = pq.top();
+        pq.pop();
+
+        if(d> dist[node]) continue;
+
+        for(auto &[adjNode, wt] : adj[node]){
+            if(d+wt < dist[adjNode]){ // we have found a shorter path hence we must relax it and then reset the number of ways
+                dist[adjNode] = d+wt;
+                ways[adjNode] = ways[node]; // the number of ways to reach this node will the same as the number of ways to reach the parent node
+                pq.push({dist[adjNode], adjNode});
             }
 
-            else if(dist[adjNode]== distance+edgeWeight){
-                ways[adjNode]= (ways[adjNode]+ways[node])%MOD;
+            else if(d+wt == dist[adjNode]){
+                ways[adjNode] = (ways[adjNode] + ways[node]) % MOD;
             }
         }
-        // vprint(dist);
-        // vprint(ways)
     }
-    // vprint(dist);
-    // vprint(ways);
-    return ways[n-1];
+    return ways[n-1]%MOD;
 }
 };
