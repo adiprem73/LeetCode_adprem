@@ -1,45 +1,14 @@
 class Solution {
 public:
-    void func(int n, string &curr, vector<string> & ans){
-    // base case
-    if(curr.length()== n){
-        ans.push_back(curr);
-        return;
-    }
-
-    curr.push_back('0');
-    func(n, curr, ans);
-    curr.pop_back();
-
-    curr.push_back('1');
-    func(n, curr, ans);
-    curr.pop_back();
+    string findDifferentBinaryString(vector<string> & nums){
+    int n= nums.size();
+    string s = "";
+    int j=0; // the basic ideas is the in our new string we will differ each character from each of the string in nums. this will work because the lenght of nums and the lenght of eachs ring in nums is the same = n
+    for(int i=0;i<n;i++){
+        if(nums[i][j] == '0') s+='1';
+        else s+='0';
+        j++;
+    }return s;
 }
 
-
-vector<string> makeAllBinaryCombinations(int n){
-    vector<string> ans;
-    string curr;
-    func(n, curr, ans);
-    return ans;
-}
-
-string findDifferentBinaryString(vector<string>& nums) {
-    if(nums.size()==0){
-        return "";
-    }
-
-    int n= nums[0].length();
-    vector<string> ans = makeAllBinaryCombinations(n);
-    sort(nums.begin(), nums.end());
-    int i=0;
-    while(i<nums.size()){
-        if(nums[i]!= ans[i]){
-            return ans[i];
-        }
-        i++;
-    }
-    return ans[i];
-
-}
 };
