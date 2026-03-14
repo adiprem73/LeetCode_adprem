@@ -1,31 +1,27 @@
 class Solution {
 public:
-    void func(string curr, int n, int k, vector<string> & ans){
-    // base case
-    if(curr.length()== n){
-        ans.push_back(curr);
+    void func(string curr, int n, int &k, string &ans) {
+    if (k == 0) return;
+
+    if (curr.length() == n) {
+        k--;
+        if (k == 0) ans = curr;
         return;
     }
 
-    string s= "abc";
-    for (auto ch: s){
-        if(curr.length()==0){
-            func(curr+ch, n, k, ans);
-        }else{
-            if(ch!= curr[curr.length()-1]){
-                func(curr + ch, n, k, ans);
-            }
+    string s = "abc";
+    for (char ch : s) {
+        if (curr.empty() || ch != curr.back()) {
+            func(curr + ch, n, k, ans);
         }
     }
 }
 
 string getHappyString(int n, int k) {
-    vector<string> ans;
+    string ans = "";
     func("", n, k, ans);
-    sort(ans.begin(), ans.end());
-    if(k>ans.size()){
-        return "";
-    }
-    return ans[k-1];
+    return ans;
 }
+
+
 };
