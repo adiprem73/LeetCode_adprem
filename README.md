@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Greedy
@@ -15,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -43,4 +45,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1009-complement-of-base-10-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/1009-complement-of-base-10-integer/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
 <!---LeetCode Topics End-->
