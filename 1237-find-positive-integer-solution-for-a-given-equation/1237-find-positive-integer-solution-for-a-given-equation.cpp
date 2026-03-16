@@ -15,9 +15,19 @@ public:
     vector<vector<int>> findSolution(CustomFunction& customfunction, int z) {
         vector<vector<int>> ans;
         for(int x  = 1;x<=1000;x++){
-            for(int y=1;y<=1000;y++){
-                if(customfunction.f(x,y) == z){
-                    ans.push_back({x,y});
+            // now we will try to use binary function to find the second number
+            int l =1;
+            int r =1000;
+            while(l<=r){
+                int mid = (l+r)/2;
+                if(customfunction.f(x, mid)== z){
+                    ans.push_back({x,mid});
+                    break;
+                }
+                else if(customfunction.f(x,mid) >z){
+                    r=mid-1;
+                }else{
+                    l=mid+1;
                 }
             }
         }
