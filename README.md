@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1605-find-valid-matrix-given-row-and-column-sums](https://github.com/adiprem73/LeetCode_adprem/tree/main/1605-find-valid-matrix-given-row-and-column-sums/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/adiprem73/LeetCode_adprem/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
@@ -31,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1605-find-valid-matrix-given-row-and-column-sums](https://github.com/adiprem73/LeetCode_adprem/tree/main/1605-find-valid-matrix-given-row-and-column-sums/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/adiprem73/LeetCode_adprem/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/adiprem73/LeetCode_adprem/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/adiprem73/LeetCode_adprem/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
