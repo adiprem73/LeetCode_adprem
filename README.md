@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1605-find-valid-matrix-given-row-and-column-sums](https://github.com/adiprem73/LeetCode_adprem/tree/main/1605-find-valid-matrix-given-row-and-column-sums/) | Medium |
+| [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/adiprem73/LeetCode_adprem/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
@@ -54,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Backtracking
@@ -111,4 +113,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 <!---LeetCode Topics End-->
