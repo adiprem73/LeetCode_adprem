@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/adiprem73/LeetCode_adprem/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/adiprem73/LeetCode_adprem/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -127,4 +129,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/adiprem73/LeetCode_adprem/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 <!---LeetCode Topics End-->
