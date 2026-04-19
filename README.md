@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1605-find-valid-matrix-given-row-and-column-sums](https://github.com/adiprem73/LeetCode_adprem/tree/main/1605-find-valid-matrix-given-row-and-column-sums/) | Medium |
 | [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/adiprem73/LeetCode_adprem/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/adiprem73/LeetCode_adprem/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
@@ -118,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
+| [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/adiprem73/LeetCode_adprem/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Interactive
 | Problem Name | Difficulty |
