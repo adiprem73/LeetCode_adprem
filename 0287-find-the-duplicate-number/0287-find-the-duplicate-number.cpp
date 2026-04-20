@@ -3,6 +3,7 @@ public:
     int findDuplicate(vector<int> &nums)
 {
     int n = nums.size();
+    sort(nums.begin(), nums.end());
     for(int i=0;i<n;i++){
         int s = i+1;
         int e = n-1;
