@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/adiprem73/LeetCode_adprem/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2089-find-target-indices-after-sorting-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
+| [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/adiprem73/LeetCode_adprem/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
 | [2615-sum-of-distances](https://github.com/adiprem73/LeetCode_adprem/tree/main/2615-sum-of-distances/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/adiprem73/LeetCode_adprem/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
@@ -128,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
 | [2615-sum-of-distances](https://github.com/adiprem73/LeetCode_adprem/tree/main/2615-sum-of-distances/) | Medium |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/adiprem73/LeetCode_adprem/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
