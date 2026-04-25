@@ -7,7 +7,7 @@ public:
     map<int,int> mp;
     for(int i =0;i<n;i++){
         ind.push_back(i);
-        auto vec = mat[i];
+        auto &vec = mat[i];
         int cnt =0;
         for(auto it: vec){
             
