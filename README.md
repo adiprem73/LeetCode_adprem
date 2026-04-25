@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/adiprem73/LeetCode_adprem/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/adiprem73/LeetCode_adprem/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/adiprem73/LeetCode_adprem/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3643-flip-square-submatrix-vertically](https://github.com/adiprem73/LeetCode_adprem/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/adiprem73/LeetCode_adprem/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/adiprem73/LeetCode_adprem/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/adiprem73/LeetCode_adprem/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/adiprem73/LeetCode_adprem/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/adiprem73/LeetCode_adprem/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
@@ -133,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0007-reverse-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/0007-reverse-integer/) | Medium |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/adiprem73/LeetCode_adprem/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -200,4 +204,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/adiprem73/LeetCode_adprem/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3464-maximize-the-distance-between-points-on-a-square](https://github.com/adiprem73/LeetCode_adprem/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 <!---LeetCode Topics End-->
