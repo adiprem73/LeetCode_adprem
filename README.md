@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/adiprem73/LeetCode_adprem/tree/main/0035-search-insert-position/) | Easy |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/adiprem73/LeetCode_adprem/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/adiprem73/LeetCode_adprem/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Database
