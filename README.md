@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
 | [0704-binary-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0704-binary-search/) | Easy |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/0007-reverse-integer/) | Medium |
+| [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/adiprem73/LeetCode_adprem/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/adiprem73/LeetCode_adprem/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/adiprem73/LeetCode_adprem/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
