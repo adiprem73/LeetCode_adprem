@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0796-rotate-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/0796-rotate-string/) | Easy |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/adiprem73/LeetCode_adprem/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -265,4 +266,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0796-rotate-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/0796-rotate-string/) | Easy |
 <!---LeetCode Topics End-->
