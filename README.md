@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/adiprem73/LeetCode_adprem/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
+| [2553-separate-the-digits-in-an-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2615-sum-of-distances](https://github.com/adiprem73/LeetCode_adprem/tree/main/2615-sum-of-distances/) | Medium |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/adiprem73/LeetCode_adprem/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
+| [2553-separate-the-digits-in-an-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
