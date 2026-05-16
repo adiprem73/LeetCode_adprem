@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/adiprem73/LeetCode_adprem/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/adiprem73/LeetCode_adprem/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3065-minimum-operations-to-exceed-threshold-value-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/3065-minimum-operations-to-exceed-threshold-value-i/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/adiprem73/LeetCode_adprem/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
 | [2615-sum-of-distances](https://github.com/adiprem73/LeetCode_adprem/tree/main/2615-sum-of-distances/) | Medium |
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/adiprem73/LeetCode_adprem/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/adiprem73/LeetCode_adprem/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/adiprem73/LeetCode_adprem/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
@@ -161,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2089-find-target-indices-after-sorting-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/adiprem73/LeetCode_adprem/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/adiprem73/LeetCode_adprem/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/adiprem73/LeetCode_adprem/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
