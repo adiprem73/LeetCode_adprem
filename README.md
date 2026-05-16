@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/adiprem73/LeetCode_adprem/tree/main/0035-search-insert-position/) | Easy |
 | [0048-rotate-image](https://github.com/adiprem73/LeetCode_adprem/tree/main/0048-rotate-image/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/adiprem73/LeetCode_adprem/tree/main/0035-search-insert-position/) | Easy |
+| [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0704-binary-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0704-binary-search/) | Easy |
