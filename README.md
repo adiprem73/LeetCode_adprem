@@ -111,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0050-powx-n](https://github.com/adiprem73/LeetCode_adprem/tree/main/0050-powx-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0007-reverse-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/adiprem73/LeetCode_adprem/tree/main/0048-rotate-image/) | Medium |
+| [0050-powx-n](https://github.com/adiprem73/LeetCode_adprem/tree/main/0050-powx-n/) | Medium |
 | [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0788-rotated-digits/) | Medium |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
