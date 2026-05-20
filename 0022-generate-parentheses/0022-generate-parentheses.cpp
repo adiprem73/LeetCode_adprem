@@ -1,31 +1,49 @@
 class Solution {
 public:
-    void parentheses(vector<string>& str,int n, int open,int close,string s){
-    // cout<<s<<endl;
-    if(2*n==s.length()){
-        
-        str.push_back(s);
+    void makeAllPossibleComb(string &curr, int open, int close, int n, vector<string> &ans)
+{
+    if (curr.length() == 2 * n)
+    {
+        ans.push_back(curr);
+        return;
     }
-    else{
-        if(open<n){
-            
-            parentheses(str,n,open+1,close,s+'(');
+    if (curr.length() > 2 * n)
+    {
+        return;
+    }
 
-        }
-        if(close<open){
-            
-            parentheses(str,n,open,close+1,s+')');
-        }
+    if(open<n){
+        curr.push_back('(');
+        makeAllPossibleComb(curr, open+1, close, n, ans);
+        curr.pop_back();
     }
+
+    if(close<open){
+        curr.push_back(')');
+        makeAllPossibleComb(curr, open, close+1, n, ans);
+        curr.pop_back();
+    }
+    
+    
 }
 
 
-vector<string> generateParenthesis(int n) {
-    vector<string> str={};
-    string s="";
-    int open=0;
-    int close=0;
-    parentheses(str,n,open,close,s);
-    return str;
+vector<string> generateParenthesis(int n)
+{
+    vector<string> ans;
+    string curr = "";
+
+    int open=0, close=0;
+
+    makeAllPossibleComb(curr,0,0, n, ans);
+    // vector<string> finalAns;
+    // for (auto it : ans)
+    // {
+    //     if (isValid(it))
+    //     {
+    //         finalAns.push_back(it);
+    //     }
+    // }
+    return ans;
 }
 };
