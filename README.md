@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/adiprem73/LeetCode_adprem/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/adiprem73/LeetCode_adprem/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/adiprem73/LeetCode_adprem/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -106,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/adiprem73/LeetCode_adprem/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/adiprem73/LeetCode_adprem/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/adiprem73/LeetCode_adprem/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
@@ -264,6 +266,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
