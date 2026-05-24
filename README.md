@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [1306-jump-game-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1306-jump-game-iii/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
+| [1340-jump-game-v](https://github.com/adiprem73/LeetCode_adprem/tree/main/1340-jump-game-v/) | Hard |
 | [1345-jump-game-iv](https://github.com/adiprem73/LeetCode_adprem/tree/main/1345-jump-game-iv/) | Hard |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -205,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
+| [1340-jump-game-v](https://github.com/adiprem73/LeetCode_adprem/tree/main/1340-jump-game-v/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/adiprem73/LeetCode_adprem/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/adiprem73/LeetCode_adprem/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -301,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0377-combination-sum-iv](https://github.com/adiprem73/LeetCode_adprem/tree/main/0377-combination-sum-iv/) | Medium |
 | [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0788-rotated-digits/) | Medium |
+| [1340-jump-game-v](https://github.com/adiprem73/LeetCode_adprem/tree/main/1340-jump-game-v/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/adiprem73/LeetCode_adprem/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/adiprem73/LeetCode_adprem/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/adiprem73/LeetCode_adprem/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
