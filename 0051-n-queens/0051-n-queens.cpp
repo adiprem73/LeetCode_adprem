@@ -1,69 +1,74 @@
 class Solution {
 public:
-    bool isSafe(int row, int col, vector<string> &board, int n){
-    int duprow=row;
-    int dupcol=col;
+    bool isValid(int row, int col, vector<string> &board, int n)
+{
 
-    // so checking is only must in three directions: NW, W and SW
+    // upper left diagonal
+    int i = row, j = col;
 
-    // 1. checking diagonlly upwards: NW
-    while(duprow>=0 && dupcol>=0){
-        if(board[duprow][dupcol]=='Q'){
+    while (i >= 0 && j >= 0)
+    {
+        if (board[i][j] == 'Q')
             return false;
-        }
-        duprow--;
-        dupcol--;
+
+        i--;
+        j--;
     }
 
-    // 2. checking left side: W
-    dupcol=col;
-    duprow=row;
-    while(dupcol>=0){
-        if (board[duprow][dupcol] == 'Q')
-        {
+    // upper right diagonal
+    i = row;
+    j = col;
+
+    while (i >= 0 && j < n)
+    {
+        if (board[i][j] == 'Q')
             return false;
-        }
-        dupcol--;
+
+        i--;
+        j++;
     }
 
-    // 3. checking right side: SW
-    dupcol = col;
-    duprow = row;
-    while(duprow<n && dupcol>=0){
-        if (board[duprow][dupcol] == 'Q')
-        {
+    // same column
+    i = row;
+
+    while (i >= 0)
+    {
+        if (board[i][col] == 'Q')
             return false;
-        }
-        dupcol--;
-        duprow++;
+
+        i--;
     }
 
     return true;
 }
 
-void solve(int col, vector<string> &board, vector<vector<string>> &ans, int n)
-{
-    //base case
-    if(col==n){
+void func(int row, vector<string> & board, vector<vector<string>> & ans, int & n){
+    // base case
+    if(row == n){
         ans.push_back(board);
+        for(auto it: board){
+            cout<<it<<endl;
+        }
         return;
     }
 
-    // trying out every row
-    for(int row=0;row<n;row++){
-        if(isSafe(row, col, board, n)){ // this function will simply check if tis safe to place the queen there or not
-            board[row][col]='Q';
-            solve(col+1, board, ans, n);
-            board[row][col]= '.';    // backtracking...         
+    for(int i=0;i<n;i++){ // trying for each col
+        
+        if(isValid(row, i, board, n)){
+            board[row][i] = 'Q';
+            func(row+1, board, ans, n);
         }
+        // backtracking
+        board[row][i] = '.';
     }
 }
 
 vector<vector<string>> solveNQueens(int n)
 {
+    string st(n,'.');
+    vector<string> board(n, st);
     vector<vector<string>> ans;
-    vector<string> board(n, string(n, '.'));
-    solve(0, board, ans, n);
+    func(0, board, ans, n);
     return ans;
 }
 };
