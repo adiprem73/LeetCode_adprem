@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/adiprem73/LeetCode_adprem/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/adiprem73/LeetCode_adprem/tree/main/0035-search-insert-position/) | Easy |
+| [0037-sudoku-solver](https://github.com/adiprem73/LeetCode_adprem/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0039-combination-sum/) | Medium |
 | [0048-rotate-image](https://github.com/adiprem73/LeetCode_adprem/tree/main/0048-rotate-image/) | Medium |
 | [0051-n-queens](https://github.com/adiprem73/LeetCode_adprem/tree/main/0051-n-queens/) | Hard |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0037-sudoku-solver](https://github.com/adiprem73/LeetCode_adprem/tree/main/0037-sudoku-solver/) | Hard |
 | [0048-rotate-image](https://github.com/adiprem73/LeetCode_adprem/tree/main/0048-rotate-image/) | Medium |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -147,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0037-sudoku-solver](https://github.com/adiprem73/LeetCode_adprem/tree/main/0037-sudoku-solver/) | Hard |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
@@ -173,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/adiprem73/LeetCode_adprem/tree/main/0022-generate-parentheses/) | Medium |
+| [0037-sudoku-solver](https://github.com/adiprem73/LeetCode_adprem/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0039-combination-sum/) | Medium |
 | [0051-n-queens](https://github.com/adiprem73/LeetCode_adprem/tree/main/0051-n-queens/) | Hard |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
