@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/adiprem73/LeetCode_adprem/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0035-search-insert-position](https://github.com/adiprem73/LeetCode_adprem/tree/main/0035-search-insert-position/) | Easy |
@@ -214,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0015-3sum/) | Medium |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
@@ -272,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/adiprem73/LeetCode_adprem/tree/main/0031-next-permutation/) | Medium |
 | [0061-rotate-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0061-rotate-list/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
