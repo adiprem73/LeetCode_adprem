@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/adiprem73/LeetCode_adprem/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/adiprem73/LeetCode_adprem/tree/main/2784-check-if-array-is-good/) | Easy |
+| [2848-points-that-intersect-with-cars](https://github.com/adiprem73/LeetCode_adprem/tree/main/2848-points-that-intersect-with-cars/) | Easy |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/adiprem73/LeetCode_adprem/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3065-minimum-operations-to-exceed-threshold-value-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/3065-minimum-operations-to-exceed-threshold-value-i/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/adiprem73/LeetCode_adprem/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [2848-points-that-intersect-with-cars](https://github.com/adiprem73/LeetCode_adprem/tree/main/2848-points-that-intersect-with-cars/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/adiprem73/LeetCode_adprem/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/adiprem73/LeetCode_adprem/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
@@ -278,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
 | [2615-sum-of-distances](https://github.com/adiprem73/LeetCode_adprem/tree/main/2615-sum-of-distances/) | Medium |
+| [2848-points-that-intersect-with-cars](https://github.com/adiprem73/LeetCode_adprem/tree/main/2848-points-that-intersect-with-cars/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/adiprem73/LeetCode_adprem/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/adiprem73/LeetCode_adprem/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
