@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
 | [2126-destroying-asteroids](https://github.com/adiprem73/LeetCode_adprem/tree/main/2126-destroying-asteroids/) | Medium |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
+| [2446-determine-if-two-events-have-conflict](https://github.com/adiprem73/LeetCode_adprem/tree/main/2446-determine-if-two-events-have-conflict/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/adiprem73/LeetCode_adprem/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
 | [2540-minimum-common-value](https://github.com/adiprem73/LeetCode_adprem/tree/main/2540-minimum-common-value/) | Easy |
@@ -133,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1871-jump-game-vii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1871-jump-game-vii/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
+| [2446-determine-if-two-events-have-conflict](https://github.com/adiprem73/LeetCode_adprem/tree/main/2446-determine-if-two-events-have-conflict/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/adiprem73/LeetCode_adprem/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/adiprem73/LeetCode_adprem/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
