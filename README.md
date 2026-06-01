@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
 | [2126-destroying-asteroids](https://github.com/adiprem73/LeetCode_adprem/tree/main/2126-destroying-asteroids/) | Medium |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/adiprem73/LeetCode_adprem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2446-determine-if-two-events-have-conflict](https://github.com/adiprem73/LeetCode_adprem/tree/main/2446-determine-if-two-events-have-conflict/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/adiprem73/LeetCode_adprem/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2078-two-furthest-houses-with-different-colors](https://github.com/adiprem73/LeetCode_adprem/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
 | [2126-destroying-asteroids](https://github.com/adiprem73/LeetCode_adprem/tree/main/2126-destroying-asteroids/) | Medium |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/adiprem73/LeetCode_adprem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -241,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2126-destroying-asteroids](https://github.com/adiprem73/LeetCode_adprem/tree/main/2126-destroying-asteroids/) | Medium |
+| [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/adiprem73/LeetCode_adprem/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2580-count-ways-to-group-overlapping-ranges](https://github.com/adiprem73/LeetCode_adprem/tree/main/2580-count-ways-to-group-overlapping-ranges/) | Medium |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
