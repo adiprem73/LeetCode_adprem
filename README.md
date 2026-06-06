@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
 | [2540-minimum-common-value](https://github.com/adiprem73/LeetCode_adprem/tree/main/2540-minimum-common-value/) | Easy |
 | [2553-separate-the-digits-in-an-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
+| [2574-left-and-right-sum-differences](https://github.com/adiprem73/LeetCode_adprem/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2580-count-ways-to-group-overlapping-ranges](https://github.com/adiprem73/LeetCode_adprem/tree/main/2580-count-ways-to-group-overlapping-ranges/) | Medium |
 | [2615-sum-of-distances](https://github.com/adiprem73/LeetCode_adprem/tree/main/2615-sum-of-distances/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/adiprem73/LeetCode_adprem/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -300,6 +301,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1871-jump-game-vii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1871-jump-game-vii/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
+| [2574-left-and-right-sum-differences](https://github.com/adiprem73/LeetCode_adprem/tree/main/2574-left-and-right-sum-differences/) | Easy |
 | [2615-sum-of-distances](https://github.com/adiprem73/LeetCode_adprem/tree/main/2615-sum-of-distances/) | Medium |
 | [2848-points-that-intersect-with-cars](https://github.com/adiprem73/LeetCode_adprem/tree/main/2848-points-that-intersect-with-cars/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
