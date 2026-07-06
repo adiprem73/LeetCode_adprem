@@ -4,7 +4,6 @@ public:
     int n = nums.size();
     int s =0;
     int e = n-1;
-    sort(nums.begin(), nums.end());
     while(s<=e){
         int mid = s+ (e-s)/2;
         if(nums[mid]==target){
