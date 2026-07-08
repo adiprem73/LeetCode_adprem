@@ -1,54 +1,50 @@
 class Solution {
 public:
-    int minDays(vector<int> &bloomDay, int m, int k)
+    bool simulCheck(const vector<int> &bloomDay, int m, int k, int day)
 {
-    if (1LL * m * k > (long long)bloomDay.size())
+    int bouquets = 0;
+    int current = 0;
+
+    for (int bloom : bloomDay)
     {
-        return -1;
+        if (bloom <= day)
+        {
+            current++;
+
+            if (current == k)
+            {
+                bouquets++;
+                current = 0; // these k flowers are now used
+            }
+        }
+        else
+        {
+            current = 0; // broken consecutive sequence
+        }
     }
-    int mini = INT_MAX;
-    int maxi = INT_MIN;
-    for (int i = 0; i < bloomDay.size(); i++)
-    {
-        mini = min(mini, bloomDay[i]);
+
+    return bouquets >= m;
+}
+
+int minDays(vector<int>& bloomDay, int m, int k) {
+    int n = bloomDay.size();
+    int maxi =0;
+    for(int i=0;i<n;i++){
         maxi = max(maxi, bloomDay[i]);
     }
-    // here (mini. maxi) becomes the search space
-    int s=mini;
+    int s=0;
     int e=maxi;
-    while (s<e)
-    {
-        int mid= s +(e-s)/2;
-        int cnt = 0; // count the consecutive bloomed flowers
-        int b = 0;   // no. of bouqets being made
-        // when bloomday[i]>= i then we can say that the flower is bloomed
-
-        // cout<<"currenlty i : "<<i<<endl;
-        for (int j = 0; j < bloomDay.size(); j++)
-        {
-            // cout << "j : " << j << endl;
-            if (mid >= bloomDay[j])
-            {
-                cnt++;
-            }
-            else
-            {
-                int x = cnt / k;
-                b += x;
-                cnt = 0; // rest the counter since consecutivity has been broken
-            }
-        }
-        if (cnt)
-        {
-            b += (cnt / k);
-        }
-        if (b >= m)
-        {
-            e = mid; // mid is feasible, try smaller...       If mid is feasible → we know the real answer is ≤ mid (so shrink e = mid).
+    int ans = INT_MAX;
+    while(s<=e){
+        int mid = s+(e-s)/2;
+        if(simulCheck(bloomDay, m, k, mid)){
+            ans = min(ans, mid);
+            e=mid-1;
         }else{
-            s=mid+1; // If mid is not feasible → the real answer is > mid (so push s = mid + 1).
-        } 
+            s=mid+1;
+        }
     }
-    return s;
+    if(ans == INT_MAX)return -1;
+    return ans;
 }
 };
