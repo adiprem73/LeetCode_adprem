@@ -1,37 +1,46 @@
 class Solution {
 public:
-    int shipWithinDays(vector<int> &weights, int days)
-{
-    int maxi=INT_MIN;
-    int sum=accumulate(weights.begin(), weights.end(), 0);
-    for(int x: weights){
-        maxi=max(maxi,x);
-    }
-    int s=maxi;
-    int e=sum;
-    while(s<e){
-        int mid= s+ (e-s)/2;
-
-        int ship=0;
-        int d=0;
-        for(int i=0;i<weights.size();i++){
-            if(ship+weights[i]<=mid){
-                ship=ship+weights[i];
-            }
-            else{
-                d++;
-                ship=weights[i];
-            }
+    bool simulCheck(vector<int>weights, int days, int capacity){
+    // cout<<"currently checking for capacity : "<<capacity<<endl;
+    int i=0;
+    int currShip=0;
+    int daysTaken=1;
+    for (int weight : weights)
+    {
+        if (currShip + weight <= capacity)
+        {
+            currShip += weight;
         }
-        ship++;
-        if(d>=days){
-            s=mid+1;
-        }
-        else{
-            e=mid;
+        else
+        {
+            daysTaken++;
+            currShip = weight;
         }
     }
-    return s;
+    // cout<<"days taken : "<<daysTaken<<endl;
+    return daysTaken<=days;
+}
 
+int shipWithinDays(vector<int>& weights, int days) {
+    int n = weights.size();
+    int sumTotal=0;
+    int maxi=0;
+    for(int i=0;i<n;i++){
+        maxi = max(maxi, weights[i]);
+        sumTotal+= weights[i];
+    }
+    int s = maxi;
+    int e = sumTotal;
+    int ans =INT_MAX;
+    while(s<=e){
+        int mid = s+(e-s)/2;
+        if(simulCheck(weights, days, mid)){
+            ans = min(ans, mid);
+            e = mid-1;
+        }else{
+            s = mid+1;
+        }
+    }
+    return ans;
 }
 };
