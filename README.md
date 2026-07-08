@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/adiprem73/LeetCode_adprem/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+| [1539-kth-missing-positive-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1559-detect-cycles-in-2d-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1605-find-valid-matrix-given-row-and-column-sums](https://github.com/adiprem73/LeetCode_adprem/tree/main/1605-find-valid-matrix-given-row-and-column-sums/) | Medium |
 | [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
@@ -248,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1351-count-negative-numbers-in-a-sorted-matrix/) | Easy |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/adiprem73/LeetCode_adprem/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
+| [1539-kth-missing-positive-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2089-find-target-indices-after-sorting-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/2089-find-target-indices-after-sorting-array/) | Easy |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
