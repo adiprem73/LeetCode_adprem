@@ -357,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0061-rotate-list/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
+| [0725-split-linked-list-in-parts](https://github.com/adiprem73/LeetCode_adprem/tree/main/0725-split-linked-list-in-parts/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
