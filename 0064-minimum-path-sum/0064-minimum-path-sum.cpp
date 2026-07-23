@@ -1,28 +1,35 @@
 class Solution {
 public:
-    int minPathSum(vector<vector<int>> & grid){
-    int n=grid.size();
-    int m=grid[0].size();
-    //observations: for computing the current element we only need the current row and the previous row
+    int func(int r, int c, vector<vector<int>> &grid, vector<vector<int>> &dp)
+{
 
-    vector<int> prev(m, 1e9);
-
-    for(int i=0;i<n;i++){
-        vector<int> curr(m,1e9);
-        for(int j=0;j<m;j++){
-            if(i==0 && j==0){
-                curr[j]= grid[0][0];
-                continue;
-            }
-            int left = (j>0)? curr[j-1] : 1e9;
-
-            int up = (i>0)? prev[j] : 1e9;
-
-            curr[j]= grid[i][j]+ min(left, up);
-            
-        }
-        prev=curr;
+    // base cases
+    if(r<0 || c< 0){
+        return 1e9+7;
     }
-    return prev[m-1];
+    if(r==0 && c==0){
+        return grid[0][0];
+    }
+
+    // check for dp case
+    if(dp[r][c]!= -1){
+        return dp[r][c];
+    }
+
+    // move left
+    int left = func(r, c-1, grid, dp);
+    int right = func(r-1, c, grid, dp);
+
+    return dp[r][c] = grid[r][c] + min(left, right);
+}
+
+int minPathSum(vector<vector<int>> &grid)
+{
+    int m = grid.size();
+    int n = grid[0].size();
+
+    // make dp array
+    vector<vector<int>> dp(m, vector<int>(n, -1));
+    return func(m-1, n-1, grid, dp);
 }
 };
