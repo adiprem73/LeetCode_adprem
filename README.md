@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0090-subsets-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0090-subsets-ii/) | Medium |
+| [0120-triangle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0120-triangle/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
@@ -392,6 +393,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/adiprem73/LeetCode_adprem/tree/main/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0064-minimum-path-sum/) | Medium |
+| [0120-triangle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0120-triangle/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0377-combination-sum-iv](https://github.com/adiprem73/LeetCode_adprem/tree/main/0377-combination-sum-iv/) | Medium |
 | [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
