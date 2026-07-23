@@ -1,31 +1,42 @@
 class Solution {
 public:
-    int minimumTotal(vector<vector<int>>& triangle){
-    int n=triangle.size();// number of rowas
-    // vector<vector<int>> dp(n, vector<int>(n,1e9));
-    vector<int> prev(n);
-    prev= triangle[n-1]; //take the lat row of the triangle only
-
-    // now since we went top to bottom in recursion and in memo,w e will do the opposite in tabulation. in tabulation we always want to start with some wehre thatt we alreayd inow tha vlaue know
-
-    // in this case, we already know that the last row will have itself as the dp wehn we start at bottom
-
-    // setting the last row of dp ss the same as the last row of triangle grid
-    for(int i=n-2;i>=0;i--){
-
-
-        vector<int> curr(i+1,0); //to store the current array
-        for(int j=0;j<=i;j++){
-            // dp[i][j]= min(dp[i+1][j], dp[i+1][j+1])+ triangle[i][j];
-            curr[j]= min(prev[j], prev[j+1])+ triangle[i][j];
-        }
-
-        // vprint(prev);
-        // vprint(curr);
-        // cout<<endl;
-        prev=curr;
+    int func(int row, int ind, vector<vector<int>> &triangle, vector<vector<int>>& dp)
+{
+    // base case
+    if(row == 0){
+        return triangle[0][0];
     }
 
-    return prev[0];
+    // dp check 
+    if(dp[row][ind]!=-1){
+        return dp[row][ind];
+    }
+
+    int sizeOfRow = triangle[row].size();
+    int score = INT_MAX;
+    if(ind == 0){
+        score = min(score, triangle[row][0] + func(row-1, 0, triangle , dp));
+    }else if(ind == sizeOfRow-1){
+        score = min(score, triangle[row][ind] + func(row - 1, ind - 1, triangle, dp));
+    }else{
+        score = min(score, triangle[row][ind] + func(row - 1, ind - 1, triangle, dp));
+        score = min(score, triangle[row][ind] + func(row - 1, ind, triangle, dp));
+    }
+
+    return dp[row][ind] = score;
+}
+
+int minimumTotal(vector<vector<int>> &triangle)
+{
+    int n = triangle.size();
+    int size = triangle[n-1].size();
+
+    vector<vector<int>> dp(n, vector<int>(size, -1));
+    int ans = INT_MAX;
+
+    for(int i=0;i<size;i++){
+        ans = min(ans, func(n-1, i, triangle, dp));
+    }
+    return ans;
 }
 };
