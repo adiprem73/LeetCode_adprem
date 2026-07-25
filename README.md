@@ -427,6 +427,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1306-jump-game-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1306-jump-game-iii/) | Medium |
+| [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/adiprem73/LeetCode_adprem/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -454,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [1306-jump-game-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1306-jump-game-iii/) | Medium |
+| [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/adiprem73/LeetCode_adprem/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1345-jump-game-iv](https://github.com/adiprem73/LeetCode_adprem/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -486,11 +488,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
