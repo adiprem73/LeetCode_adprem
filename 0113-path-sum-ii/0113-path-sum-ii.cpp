@@ -11,37 +11,42 @@
  */
 class Solution {
 public:
-    void dfs(TreeNode* node, int targetSum, int curSum, vector<vector<int>>& ans, vector<int>&curr){
-    if (node == nullptr)
-    {
-        return;
-    }
+    void dfs(TreeNode* node, int targetSum, vector<int> curPath,  vector<vector<int>>& ans){
+        // base case
+        if(node==nullptr){
+            return;
+        }
+        if(node->left == nullptr && node->right == nullptr){
+            if(node->val == targetSum){
+                curPath.push_back(node->val);
+                ans.push_back(curPath);
+                curPath.pop_back();
+                return;
+            }
+        }
 
-    curr.push_back(node->val);
-    curSum+= node->val;
+        // if(targetSum<0){
+        //     return;
+        // }
 
-    // if leaf node
-    if(node->left==nullptr && node->right== nullptr){
-        if(curSum== targetSum){
-            ans.push_back(curr);
+        if(node->left!= nullptr){
+            curPath.push_back(node->val);
+            dfs(node->left, targetSum-(node->val), curPath, ans);
+            // backtracking
+            curPath.pop_back();
+        }
+        if(node->right!= nullptr){
+            curPath.push_back(node->val);
+            dfs(node->right, targetSum-(node->val), curPath, ans);
+            // backtracking
+            curPath.pop_back();
         }
     }
-    else{
-        dfs(node->left, targetSum, curSum, ans, curr);
-    dfs(node->right, targetSum, curSum, ans, curr);
+
+    vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
+        vector<vector<int>> ans;
+        vector<int> path;
+        dfs(root, targetSum, path, ans);
+        return ans;
     }
-    curr.pop_back();
-
-    
-}
-
-vector<vector<int>> pathSum(TreeNode *root, int targetSum)
-{
-    vector<vector<int>> ans;
-    if(root == nullptr)return ans;
-
-    vector<int> curr;
-    dfs(root, targetSum, 0, ans, curr);
-    return ans;
-}
 };
