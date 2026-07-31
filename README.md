@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0377-combination-sum-iv](https://github.com/adiprem73/LeetCode_adprem/tree/main/0377-combination-sum-iv/) | Medium |
 | [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
+| [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 | [0493-reverse-pairs](https://github.com/adiprem73/LeetCode_adprem/tree/main/0493-reverse-pairs/) | Hard |
 | [0495-teemo-attacking](https://github.com/adiprem73/LeetCode_adprem/tree/main/0495-teemo-attacking/) | Easy |
 | [0540-single-element-in-a-sorted-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1605-find-valid-matrix-given-row-and-column-sums](https://github.com/adiprem73/LeetCode_adprem/tree/main/1605-find-valid-matrix-given-row-and-column-sums/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/adiprem73/LeetCode_adprem/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -271,6 +273,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/adiprem73/LeetCode_adprem/tree/main/0056-merge-intervals/) | Medium |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1340-jump-game-v](https://github.com/adiprem73/LeetCode_adprem/tree/main/1340-jump-game-v/) | Hard |
@@ -347,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0061-rotate-list/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/adiprem73/LeetCode_adprem/tree/main/1861-rotating-the-box/) | Medium |
