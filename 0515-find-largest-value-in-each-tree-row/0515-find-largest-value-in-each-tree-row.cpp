@@ -17,15 +17,17 @@ public:
         queue<TreeNode*> q;
         q.push(root);
         
-        vector<vector<int>> fin;
+        // vector<vector<int>> fin;
         while(!q.empty()){
             int size = q.size();
-            vector<int> level={};
+            int mx = INT_MIN;
+            // vector<int> level={};
             for(int i=0;i<size;i++){
                 auto f= q.front();
                 q.pop();
                 int val = f->val;
-                level.push_back(val);
+                mx= max(mx, val);
+                // level.push_back(val);
 
                 // left explore
                 if(f->left != nullptr){
@@ -37,21 +39,22 @@ public:
                     q.push(f->right);
                 }
             }
-            fin.push_back(level);
+            // fin.push_back(level);
+            ans.push_back(mx);
 
         }
 
 
         
-        for(auto it: fin){
-            int mx = INT_MIN;
-            for(auto itr: it){
-                cout<<itr<<" ";
-                mx= max(mx, itr);
-            }
-            cout<<endl;
-            ans.push_back(mx);
-        }
+        // for(auto it: fin){
+        //     int mx = INT_MIN;
+        //     for(auto itr: it){
+        //         cout<<itr<<" ";
+        //         mx= max(mx, itr);
+        //     }
+        //     cout<<endl;
+        //     ans.push_back(mx);
+        // }
 
         return ans;
     }
