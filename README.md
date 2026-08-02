@@ -428,6 +428,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0175-combine-two-tables](https://github.com/adiprem73/LeetCode_adprem/tree/main/0175-combine-two-tables/) | Easy |
+| [0181-employees-earning-more-than-their-managers](https://github.com/adiprem73/LeetCode_adprem/tree/main/0181-employees-earning-more-than-their-managers/) | Easy |
 | [1757-recyclable-and-low-fat-products](https://github.com/adiprem73/LeetCode_adprem/tree/main/1757-recyclable-and-low-fat-products/) | Easy |
 | [2356-number-of-unique-subjects-taught-by-each-teacher](https://github.com/adiprem73/LeetCode_adprem/tree/main/2356-number-of-unique-subjects-taught-by-each-teacher/) | Easy |
 ## Trie
