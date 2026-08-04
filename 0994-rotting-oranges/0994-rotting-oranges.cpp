@@ -1,51 +1,52 @@
 class Solution {
 public:
-    int orangesRotting(vector<vector<int>> &grid)
-{
-    int m = grid.size(); // number of rows
-    int n = grid[0].size(); // number of cols
+    int orangesRotting(vector<vector<int>>& grid) {
+        // since this is step by step thing, we will use BFS for this questions
 
-    // for such question we always do bfs. since we need to move in four directions and bfs naturally takes the motions of four directions
-    // bfs in grpahs requires a queue
-    // each entry in the queue will the (i, j, time). 
-    // the starting points of the bfs will be those which ocntaitn '2' that is which are rotten
-    queue<vector<int>>q;
-    vector<int> dx = {0, 1, 0, -1};
-    vector<int> dy = {-1, 0, 1, 0};
-    int countFresh = 0;
-    // here the rottening occurs from each rotten orange at once. and not one by one
-    for(int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
+        int m = grid.size();
+        int n = grid[0].size();
+        queue<pair<int,int>> q;
+        int emptyGrid=true;
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+            if(grid[i][j]!=0){
+                emptyGrid= false;
+            }
             if(grid[i][j]==2){
-                q.push({i,j,0});
-            }else if(grid[i][j]==1){
-                countFresh++;
+                q.push({i,j});
             }
         }
-    }
+        }
+        if(emptyGrid)return 0;
+        vector<int> dr = {-1,0,1,0};
+        vector<int> dc = {0,1,0,-1};
+        int minutes=-1;
+        while(!q.empty()){
+            int size = q.size();
+            minutes++;
+            for(int i=0;i<size;i++){
+                auto [r,c] = q.front();
+                q.pop();
+                for(int i=0;i<4;i++){
+                    int nr = r+dr[i];
+                    int nc = c+dc[i];
 
-    int ansTime =0;
-    
-    while(!q.empty()){
-        auto node = q.front();
-        q.pop();
-        int x = node[0];
-        int y = node[1];
-        int time = node[2];
-        ansTime= max(ansTime, time);
-        for(int k=0;k<4;k++){
-            int nx = x+dx[k];
-            int ny = y+dy[k];
-            if(nx>=0 && nx<m && ny>=0 && ny<n && grid[nx][ny]==1){
-                q.push({nx, ny, time+1});
-                grid[nx][ny] = 2;
-                countFresh--;
+                    // checking conditions
+                    if(nr>=0 && nr<m && nc>=0 && nc<n && grid[nr][nc] == 1){
+                        q.push({nr,nc});
+                        grid[nr][nc] = 2;
+                    }
+                }
             }
         }
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(grid[i][j] == 1){
+                    return -1;
+                }
+            }
+        }
+
+        return minutes;
     }
-           
-    // now if all the cells have been visited, then we can return the ansTime or else we will return -1
-    if(countFresh == 0)return ansTime;
-    else return -1;
-}
 };
