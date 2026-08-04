@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0035-search-insert-position](https://github.com/adiprem73/LeetCode_adprem/tree/main/0035-search-insert-position/) | Easy |
 | [0037-sudoku-solver](https://github.com/adiprem73/LeetCode_adprem/tree/main/0037-sudoku-solver/) | Hard |
 | [0039-combination-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0039-combination-sum/) | Medium |
+| [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0048-rotate-image](https://github.com/adiprem73/LeetCode_adprem/tree/main/0048-rotate-image/) | Medium |
 | [0051-n-queens](https://github.com/adiprem73/LeetCode_adprem/tree/main/0051-n-queens/) | Hard |
 | [0053-maximum-subarray](https://github.com/adiprem73/LeetCode_adprem/tree/main/0053-maximum-subarray/) | Medium |
@@ -354,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0015-3sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/adiprem73/LeetCode_adprem/tree/main/0031-next-permutation/) | Medium |
+| [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0061-rotate-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0061-rotate-list/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -395,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0155-min-stack](https://github.com/adiprem73/LeetCode_adprem/tree/main/0155-min-stack/) | Medium |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
@@ -402,6 +405,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/adiprem73/LeetCode_adprem/tree/main/0022-generate-parentheses/) | Medium |
+| [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/adiprem73/LeetCode_adprem/tree/main/0053-maximum-subarray/) | Medium |
 | [0062-unique-paths](https://github.com/adiprem73/LeetCode_adprem/tree/main/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0063-unique-paths-ii/) | Medium |
@@ -551,4 +555,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/adiprem73/LeetCode_adprem/tree/main/0062-unique-paths/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 <!---LeetCode Topics End-->
