@@ -1,29 +1,36 @@
 class Solution {
 public:
-    int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_set<string> st(wordList.begin(), wordList.end());
-        queue<pair<string,int>> q;
-        q.push({beginWord,1});
-        st.erase(beginWord);
-        while(!q.empty()){
-            auto it= q.front();
+    
+
+    int ladderLength(string beginWord, string endWord,
+                     vector<string>& wordList) {
+        vector<int> used(wordList.size());
+        // we wil need to use BFS for this problem
+        queue<pair<int, string>> q;
+        q.push({1, beginWord});
+        unordered_set<string>st(wordList.begin(), wordList.end());
+        while (!q.empty()) {
+            auto [steps, word] = q.front();
             q.pop();
-            string word= it.first;
-            int steps= it.second;
-            if(word==endWord)return steps;
-            for(int i=0;i<word.size();i++){
-                char og= word[i];
-                for(char ch='a';ch<='z';ch++){
-                    word[i]=ch;
-                    if(st.find(word)!=st.end()){
-                        q.push({word, steps+1});
+
+            // base case
+            if(word == endWord){
+                return steps;
+            }
+
+            for (int i = 0; i < word.size(); i++) {
+                for (char ch = 'a'; ch <= 'z'; ch++) {
+                    char temp = word[i];
+                    word[i] = ch;
+                    if(st.find(word) != st.end()){
+                        q.push({steps+1, word});
                         st.erase(word);
                     }
+                    word[i] = temp;
                 }
-                word[i]= og; // revert back to the base case
             }
-            
         }
+
         return 0;
     }
 };
