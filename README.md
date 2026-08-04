@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0090-subsets-ii/) | Medium |
 | [0120-triangle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0120-triangle/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0216-combination-sum-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0216-combination-sum-iii/) | Medium |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0064-minimum-path-sum/) | Medium |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
+| [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -463,6 +465,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
+| [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
@@ -481,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -497,6 +501,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
 | [0322-coin-change](https://github.com/adiprem73/LeetCode_adprem/tree/main/0322-coin-change/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
