@@ -1,37 +1,36 @@
 class Solution {
 public:
-    void dfs(int x, int y, vector<vector<bool>>& vis, vector<vector<char>> & grid){
-    vis[x][y]= true;
-    int m = grid.size();
-    int n = grid[0].size();
-    vector<int> dx = {-1, 0, 1, 0};
-    vector<int> dy = {0, 1, 0, -1};
-    for(int i=0;i<4;i++){
-        int nx = x+dx[i];
-        int ny = y+dy[i];
-        if(nx>=0 && nx<m && ny>=0 && ny<n && grid[nx][ny]=='1' && vis[nx][ny]==false){
-            dfs(nx, ny, vis, grid);
-        }
-    }
-}
 
-int numIslands(vector<vector<char>> &grid)
-{
-    int m = grid.size();
-    int n= grid[0].size();
+// this questions just comes down to counting of the number of provinces
 
-    vector<vector<bool>> vis(m, vector<bool> (n, false));
+    void dfs(int r, int c, vector<vector<int>>& vis, vector<vector<char>>&grid){
+        vis[r][c]= 1;
+        int m = grid.size();
+        int n = grid[0].size();
+        int dr[]={-1,0,1,0};
+        int dc[]={0,1,0,-1};
 
-    int cnt =0;
-    for(int i=0;i<m;i++){
-        for(int j=0;j<n;j++){
-            if(vis[i][j]== false && grid[i][j] == '1'){
-                // cout<<"Hello"<<endl;
-                dfs(i, j, vis, grid);
-                cnt++;
+        for(int i=0;i<4;i++){
+            int nr = r+dr[i];
+            int nc = c+dc[i];
+            if(nr>=0 && nr< m && nc>=0 && nc<n && vis[nr][nc]==0 && grid[nr][nc]=='1'){
+                dfs(nr, nc, vis, grid);
             }
         }
     }
-    return cnt;
-}
+    int numIslands(vector<vector<char>>& grid) {
+        int count=0;
+        int m = grid.size();
+        int n = grid[0].size();
+        vector<vector<int>> vis(m, vector<int>(n,0));
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+                if(vis[i][j] ==0 && grid[i][j]=='1'){
+                    count++;
+                    dfs(i,j,vis,grid);
+                }
+            }
+        }
+        return count;
+    }
 };
