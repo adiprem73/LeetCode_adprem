@@ -1,41 +1,45 @@
 class Solution {
 public:
     int minimumEffortPath(vector<vector<int>>& heights) {
-    //{difference,{row,col}}
-    priority_queue<pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>, greater<pair<int,pair<int,int>>> > pq;
+        int m = heights.size(); // number of rows
+        int n = heights[0].size(); // number of columns
+        priority_queue<pair<int,pair<int,int>>, vector<pair<int,pair<int,int>>>, greater<>> pq; // {dist, {row, col}}
+        pq.push({0, {0,0}});
+        int dr[]={-1,0,1,0};
+        int dc[]={0,1,0,-1};
+        vector<vector<int>> dist(m, vector<int>(n,1e7));
+        dist[0][0]=0;
+        while(!pq.empty()){
+            auto [difference, cell]= pq.top();
+            int r = cell.first;
+            int c = cell.second;
+            pq.pop();
+            if(r==m-1 && c==n-1){
+                return difference;
+            }
+            for(int i=0;i<4;i++){
+                int nr = r+dr[i];
+                int nc = c+dc[i];
 
-    int n=heights.size();
-    int m=heights[0].size();
-
-    vector<vector<int>> diff(n, vector<int> (m,1e9));
-    pq.push({0,{0,0}});
-    diff[0][0]=0;
-
-    vector<int> drow={-1,0,1,0};
-    vector<int> dcol={0,1,0,-1};
-
-    while(!pq.empty()){
-        auto it = pq.top();
-        pq.pop();
-        int difference= it.first;
-        int r=it.second.first;
-        int c=it.second.second;
-
-        if(r==n-1 && c==m-1)return difference;
-
-        for(int i=0;i<4;i++){
-            int nrow=r+drow[i];
-            int ncol=c+dcol[i];
-
-            if(nrow>=0 && nrow<n && ncol>=0 && ncol<m ){
-                int newEffort= max(abs(heights[r][c]-heights[nrow][ncol]), difference);
-                if(newEffort < diff[nrow][ncol]){
-                    pq.push({newEffort,{nrow,ncol}});
-                    diff[nrow][ncol]= newEffort;
+                if(!(nr>=0 && nr<m && nc>=0 && nc<n)){
+                    continue;
                 }
+                int diff = abs(heights[r][c] -heights[nr][nc]);
+                int newEffort = max(diff, difference);
+                // djikstra relaxation
+                if(newEffort < dist[nr][nc]){
+                    dist[nr][nc]= newEffort;
+                    pq.push({dist[nr][nc],{nr,nc}});
+                }
+                
             }
         }
+        // for(auto it: dist){
+        //     for(auto itr: it){
+        //         cout<<itr<<" ";
+        //     }
+        //     cout<<endl;
+        // }
+        return 0;
     }
-    return 0;
-}
 };
