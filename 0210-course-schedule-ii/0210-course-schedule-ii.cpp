@@ -1,41 +1,41 @@
 class Solution {
 public:
-    bool detect(int node, vector<int> &vis, vector<int> &pathvis, vector<vector<int>> &graph, vector<int> &order) {
-    vis[node] = 1;
-    pathvis[node] = 1;
-
-    for (auto it : graph[node]) {
-        if (vis[it] == 0) {
-            if (detect(it, vis, pathvis, graph, order))
-                return true; // cycle found
-        } 
-        else if (pathvis[it] == 1) {
-            return true; // cycle found
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
+        // first build the adj vector
+        vector<vector<int>> adj(numCourses);
+        for(auto it: prerequisites){
+            adj[it[1]].push_back(it[0]);
         }
-    }
 
-    pathvis[node] = 0;
-    order.push_back(node); // add to topo order after visiting all dependencies
-    return false;
-}
-
-vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites) {
-    vector<vector<int>> graph(numCourses);
-    for (auto &p : prerequisites) {
-        graph[p[1]].push_back(p[0]);
-    }
-
-    vector<int> vis(numCourses, 0), pathvis(numCourses, 0), order;
-    
-    for (int i = 0; i < numCourses; i++) {
-        if (!vis[i]) {
-            if (detect(i, vis, pathvis, graph, order)) {
-                return {}; // cycle detected
+        vector<int> indegree(numCourses,0);
+        // update the indegrees
+        for(auto it: adj){
+            for(auto itr: it){
+                indegree[itr]++;
             }
         }
-    }
+        queue<int> q;
+        for(int i=0;i<numCourses;i++){
+            if(indegree[i] == 0){
+                q.push(i);
+            }
+        }
 
-    reverse(order.begin(), order.end()); // reverse for correct topological order
-    return order;
-}
+        vector<int> topo;
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            topo.push_back(node);
+
+            for(auto adjNode: adj[node]){
+                indegree[adjNode] -- ;
+                if(indegree[adjNode] == 0){
+                    q.push(adjNode);
+                }
+            }
+        }
+
+        if(topo.size()== numCourses)return topo;
+        return {};
+    }
 };
