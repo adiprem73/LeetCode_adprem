@@ -479,6 +479,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/adiprem73/LeetCode_adprem/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1306-jump-game-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1306-jump-game-iii/) | Medium |
@@ -523,6 +524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/adiprem73/LeetCode_adprem/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [0994-rotting-oranges](https://github.com/adiprem73/LeetCode_adprem/tree/main/0994-rotting-oranges/) | Medium |
 | [1306-jump-game-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1306-jump-game-iii/) | Medium |
@@ -539,6 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/adiprem73/LeetCode_adprem/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/adiprem73/LeetCode_adprem/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 ## Divide and Conquer
@@ -604,6 +607,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0210-course-schedule-ii/) | Medium |
+| [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 ## Directed Acyclic Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -620,4 +624,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0785-is-graph-bipartite](https://github.com/adiprem73/LeetCode_adprem/tree/main/0785-is-graph-bipartite/) | Medium |
+## Kosaraju's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Tarjan's SCC Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 <!---LeetCode Topics End-->
