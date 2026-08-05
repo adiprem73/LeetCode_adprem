@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
+| [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0216-combination-sum-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0216-combination-sum-iii/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0322-coin-change](https://github.com/adiprem73/LeetCode_adprem/tree/main/0322-coin-change/) | Medium |
@@ -141,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0064-minimum-path-sum/) | Medium |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -468,6 +470,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
 | [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
@@ -487,6 +490,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -505,6 +509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/adiprem73/LeetCode_adprem/tree/main/0127-word-ladder/) | Hard |
 | [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
+| [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
 | [0322-coin-change](https://github.com/adiprem73/LeetCode_adprem/tree/main/0322-coin-change/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
