@@ -354,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/adiprem73/LeetCode_adprem/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -438,6 +439,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0788-rotated-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0788-rotated-digits/) | Medium |
 | [1340-jump-game-v](https://github.com/adiprem73/LeetCode_adprem/tree/main/1340-jump-game-v/) | Hard |
 | [1871-jump-game-vii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1871-jump-game-vii/) | Medium |
@@ -485,6 +487,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/adiprem73/LeetCode_adprem/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
@@ -532,6 +535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/adiprem73/LeetCode_adprem/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [0994-rotting-oranges](https://github.com/adiprem73/LeetCode_adprem/tree/main/0994-rotting-oranges/) | Medium |
@@ -551,6 +555,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/adiprem73/LeetCode_adprem/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/adiprem73/LeetCode_adprem/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
@@ -646,4 +651,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1631-path-with-minimum-effort](https://github.com/adiprem73/LeetCode_adprem/tree/main/1631-path-with-minimum-effort/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 <!---LeetCode Topics End-->
