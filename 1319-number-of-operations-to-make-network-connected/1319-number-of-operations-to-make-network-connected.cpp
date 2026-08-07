@@ -1,96 +1,60 @@
-
-
-class DisjointSet
-{
-    
-
-public:
-    vector<int> rank, parent, size;
-    DisjointSet(int n)
-    {
-        rank.resize(n + 1, 0);
-        size.resize(n + 1, 1);
-        parent.resize(n + 1);
-        for (int i = 0; i <= n; i++)
-        {
-            parent[i] = i;
-        }
-    }
-
-    int findUPar(int node)
-    {
-        if (node == parent[node])
-        {
-            return node;
-        }
-        return parent[node] = findUPar(parent[node]); // this is how path compression would take place. we store the parent in parent[node]
-    }
-    // Union by rank
-    void unionByRank(int u, int v)
-    {
-        int ulp_u = findUPar(u);
-        int ulp_v = findUPar(v);
-        if (ulp_u == ulp_v)
-            return;
-
-        if (rank[ulp_u] < rank[ulp_v])
-        {
-            parent[ulp_u] = ulp_v;
-        }
-        else if (rank[ulp_v] < rank[ulp_u])
-        {
-            parent[ulp_v] = ulp_u;
-        }
-        else
-        {
-            parent[ulp_v] = ulp_u;
-            rank[ulp_u]++;
-        }
-    }
-
-    // Union by Size
-    void unioBySize(int u, int v)
-    {
-        int ulp_u = findUPar(u);
-        int ulp_v = findUPar(v);
-        if (ulp_u == ulp_v)
-            return;
-
-        if (size[ulp_u] < size[ulp_v])
-        {
-            parent[ulp_u] = ulp_v;
-            size[ulp_v] += size[ulp_u];
-        }
-        else
-        {
-            parent[ulp_v] = ulp_u;
-            size[ulp_u] += size[ulp_v];
-        }
-    }
-};
 class Solution {
 public:
-    int makeConnected(int n, vector<vector<int>> &connections)
-{
-    DisjointSet ds(n);
-    int cntExtras=0;
-    for(auto it: connections){
-        int u = it[0];
-        int v = it[1];
-        if(ds.findUPar(u) == ds.findUPar(v)){
-            cntExtras++;
-        }else{
-            ds.unioBySize(u,v);
+    class DisjointSet{
+        vector<int> parent, size;
+        public:
+        DisjointSet(int V){
+            size.resize(V+1, 1);
+            parent.resize(V+1);
+            for(int i=0;i<=V;i++){
+                parent[i] = i;
+            }
         }
-    }
 
-    int cntConnected = 0;
-    for(int i=0;i<n;i++){
-        if(ds.parent[i] == i) cntConnected++;
-    }
-    int ans = cntConnected-1;
-    if(cntExtras >= ans)return ans;
-    return -1;
-}
+        int findUPar(int u){
+            if(parent[u] == u)return u;
+            return parent[u] = findUPar(parent[u]);
+        }
 
+        void unionBySize(int u, int v){
+            int ulp_u = findUPar(u);
+            int ulp_v = findUPar(v);
+            if(ulp_u == ulp_v)return;
+            
+            if(size[ulp_v]>size[ulp_u]){
+                parent[ulp_u] = ulp_v;
+                size[ulp_v]+=size[ulp_u];
+            }
+            else{
+                parent[ulp_v] = ulp_u;
+                size[ulp_u]+=size[ulp_v];
+            }
+        }
+    };
+
+    // the basic idea behind this question is that, the number of connections requried to make evetrhting connected is (numOfConnectedComponents - 1).
+    // so, using DSU we will find the number of extra connections(those whicha re nore required). we will also find the number of connectedomcpoennts. and then we can declare the answer
+
+    int makeConnected(int n, vector<vector<int>>& connections) {
+        DisjointSet ds(n);
+        // to find the number of extra components
+        int extraConnections=0;
+        for(auto it: connections){
+            int u= it[0];
+            int v= it[1];
+            if(ds.findUPar(u) == ds.findUPar(v)){
+                extraConnections++;
+            }else{
+                ds.unionBySize(u,v);
+            }
+        }     
+        int connectedComponentsCount=0;
+        for(int i=0;i<n;i++){
+            if(ds.findUPar(i) == i){
+                connectedComponentsCount++;
+            }
+        }
+
+        return (connectedComponentsCount - 1) <= extraConnections ? connectedComponentsCount - 1 : -1;
+    }
 };
