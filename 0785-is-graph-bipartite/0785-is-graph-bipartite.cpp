@@ -1,29 +1,30 @@
 class Solution {
 public:
 
-    bool dfs(int node, int color, vector<int> & colors, vector<vector<int>>&graph){
-        for(int adjNode: graph[node]){
-            if(colors[adjNode]==-1){
-                colors[adjNode] = 1-color;
-                if(dfs(adjNode, 1-color, colors, graph)==false){
+    bool dfs(int node, int currColor, vector<vector<int>>& graph, vector<int>& color){
+        color[node] = currColor;        
+        for(auto adjNode : graph[node]){
+            if(color[adjNode]!=-1){
+                if(color[adjNode] != 1-currColor)return false;
+            }
+            else{
+                if(!dfs(adjNode, 1-currColor, graph, color)){
                     return false;
                 }
-            }else{
-                if(colors[adjNode] == color)return false;
             }
         }
         return true;
     }
 
-// if graph has odd length cycle: it cannot be bipartite
     bool isBipartite(vector<vector<int>>& graph) {
         int n = graph.size();
-        vector<int> colors(n, -1);
+        vector<int> color(n, -1);
+        // color[0] =1;
         for(int i=0;i<n;i++){
-            if(colors[i]==-1){
-                if(dfs(i, 0, colors, graph) == false)return false;
+            if(color[i] == -1){
+                if(!dfs(i, 0, graph, color ))return false;
             }
         }
         return true;
-    }
+    }   
 };
