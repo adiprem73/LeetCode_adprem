@@ -1,41 +1,44 @@
 class Solution {
 public:
-    int countPaths(int n, vector<vector<int>> &roads)
-{
-    const long long MOD = 1e9 + 7;
-    vector<vector<pair<int,long long>>> adj(n);
-    for(auto it: roads){
-        adj[it[0]].push_back({it[1], it[2]}); //{node, time}
-        adj[it[1]].push_back({it[0], it[2]});
-    }
 
-    vector<long long> dist(n, LLONG_MAX);
-    vector<long long> ways(n,0);
+    static const int MOD = 1e9+7;
+    int countPaths(int n, vector<vector<int>>& roads) {
+        // building the adjacency list
+        vector<vector<pair<int,int>>> adj(n);
+        for(auto it: roads){
+            int u = it[0];
+            int v = it[1];
+            int time = it[2];
+            adj[u].push_back({v, time}); //(node, time);
+            adj[v].push_back({u, time});
+        }
+        vector<long long> dist(n, 1e9);
+        vector<long long > ways(n,0);
 
-    priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int >>> pq;
+        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>>pq;
+        pq.push({0, 0}); //{time, node}
+        dist[0]=0;
+        ways[0]=1;
+        while(!pq.empty()){
+            auto temp = pq.top();
+            pq.pop();
+            int time = temp.first;
+            int node = temp.second;
 
-    dist[0] = 0;
-    ways[0] = 1;
-    pq.push({0,0});
+            if(time > dist[node])continue;
 
-    while(!pq.empty()){
-        auto [d, node] = pq.top();
-        pq.pop();
-
-        if(d> dist[node]) continue;
-
-        for(auto &[adjNode, wt] : adj[node]){
-            if(d+wt < dist[adjNode]){ // we have found a shorter path hence we must relax it and then reset the number of ways
-                dist[adjNode] = d+wt;
-                ways[adjNode] = ways[node]; // the number of ways to reach this node will the same as the number of ways to reach the parent node
-                pq.push({dist[adjNode], adjNode});
-            }
-
-            else if(d+wt == dist[adjNode]){
-                ways[adjNode] = (ways[adjNode] + ways[node]) % MOD;
+            for(auto neigh : adj[node]){
+                int nextNode = neigh.first;
+                int costTime = neigh.second;
+                if(dist[nextNode] > time + costTime){
+                    ways[nextNode] = ways[node];
+                    dist[nextNode] = time+ costTime;
+                    pq.push({dist[nextNode], nextNode});
+                }else if(dist[nextNode] == time + costTime){
+                    ways[nextNode]=( ways[node] + ways[nextNode])%MOD;
+                }
             }
         }
+        return ways[n-1]%MOD;
     }
-    return ways[n-1]%MOD;
-}
 };
