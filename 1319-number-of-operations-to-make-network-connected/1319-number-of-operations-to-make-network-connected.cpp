@@ -1,60 +1,64 @@
 class Solution {
 public:
-    class DisjointSet{
-        vector<int> parent, size;
-        public:
-        DisjointSet(int V){
-            size.resize(V+1, 1);
-            parent.resize(V+1);
-            for(int i=0;i<=V;i++){
-                parent[i] = i;
-            }
+class DisjointSet{
+    vector<int> size, parent;
+
+    public:
+    DisjointSet(int n){
+        size.resize(n, 1);
+        parent.resize(n);
+        for(int i=0;i<n;i++){
+            parent[i] = i;
+        }
+    }
+
+    int findUParent(int u){
+        if(parent[u] == u)return u;
+
+        return parent[u] = findUParent(parent[u]);
+    }
+
+    void unionBySize(int u, int v){
+        int ulpu = findUParent(u);
+        int ulpv = findUParent(v);
+
+        if(ulpu == ulpv)return;
+
+        if(size[ulpu] > size[ulpv]){
+            parent[ulpv] = ulpu;
+            size[ulpu] += size[ulpv];
         }
 
-        int findUPar(int u){
-            if(parent[u] == u)return u;
-            return parent[u] = findUPar(parent[u]);
+        else{
+            parent[ulpu] = ulpv;
+            size[ulpv] += size[ulpu];
         }
-
-        void unionBySize(int u, int v){
-            int ulp_u = findUPar(u);
-            int ulp_v = findUPar(v);
-            if(ulp_u == ulp_v)return;
-            
-            if(size[ulp_v]>size[ulp_u]){
-                parent[ulp_u] = ulp_v;
-                size[ulp_v]+=size[ulp_u];
-            }
-            else{
-                parent[ulp_v] = ulp_u;
-                size[ulp_u]+=size[ulp_v];
-            }
-        }
-    };
-
-    // the basic idea behind this question is that, the number of connections requried to make evetrhting connected is (numOfConnectedComponents - 1).
-    // so, using DSU we will find the number of extra connections(those whicha re nore required). we will also find the number of connectedomcpoennts. and then we can declare the answer
+    }
+};
 
     int makeConnected(int n, vector<vector<int>>& connections) {
         DisjointSet ds(n);
-        // to find the number of extra components
-        int extraConnections=0;
+        int extraConnect=0;
         for(auto it: connections){
-            int u= it[0];
-            int v= it[1];
-            if(ds.findUPar(u) == ds.findUPar(v)){
-                extraConnections++;
-            }else{
-                ds.unionBySize(u,v);
+            int u = it[0];
+            int v = it[1];
+
+            if(ds.findUParent(u) == ds.findUParent(v)){
+                extraConnect++;
             }
-        }     
-        int connectedComponentsCount=0;
-        for(int i=0;i<n;i++){
-            if(ds.findUPar(i) == i){
-                connectedComponentsCount++;
+            else{
+                ds.unionBySize(u,v);
             }
         }
 
-        return (connectedComponentsCount - 1) <= extraConnections ? connectedComponentsCount - 1 : -1;
+        // finding the number of connected components
+        int connectComp=0;
+        for(int i=0;i<n;i++){
+            if(ds.findUParent(i) == i)connectComp++;
+        }
+
+        if(connectComp - 1 > extraConnect)return -1;
+
+        return connectComp-1;
     }
 };
