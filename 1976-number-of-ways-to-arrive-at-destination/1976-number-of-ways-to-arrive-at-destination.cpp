@@ -12,24 +12,24 @@ public:
             adj[u].push_back({v, time}); //(node, time);
             adj[v].push_back({u, time});
         }
-        vector<long long> dist(n, 1e9);
+        vector<long long> dist(n, LLONG_MAX);
         vector<long long > ways(n,0);
 
-        priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>>pq;
+        priority_queue<pair<long long,int>, vector<pair<long long,int>>, greater<>>pq;
         pq.push({0, 0}); //{time, node}
         dist[0]=0;
         ways[0]=1;
         while(!pq.empty()){
             auto temp = pq.top();
             pq.pop();
-            int time = temp.first;
-            int node = temp.second;
+            long long time = temp.first;
+            long long node = temp.second;
 
             if(time > dist[node])continue;
 
             for(auto neigh : adj[node]){
-                int nextNode = neigh.first;
-                int costTime = neigh.second;
+                long long nextNode = neigh.first;
+                long long costTime = neigh.second;
                 if(dist[nextNode] > time + costTime){
                     ways[nextNode] = ways[node];
                     dist[nextNode] = time+ costTime;
