@@ -1,34 +1,41 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
+
+        // building adjacency list
         vector<vector<pair<int,int>>> adj(n+1);
         for(auto it: times){
-            adj[it[0]].push_back({it[1], it[2]});
+            int from = it[0];
+            int to = it[1];
+            int time = it[2];
+            adj[from].push_back({to, time});
         }
-        // now we will apply standard djikstra
+        // we will apply djikstra
         vector<int> dist(n+1, 1e9);
-        dist[k] = 0;
         priority_queue<pair<int,int>, vector<pair<int,int>>, greater<>>pq;
-        pq.push({0,k}); // (cost, node)
+        pq.push({0, k});
+        dist[k]=0;
 
         while(!pq.empty()){
-            auto [cost, node] = pq.top();
+            auto it= pq.top();
             pq.pop();
-            for(auto iter: adj[node]){
-                int adjNode = iter.first;
-                int edW = iter.second;
-                if(edW + cost < dist[adjNode]){
-                    dist[adjNode] = edW+cost;
+            int time = it.first;
+            int node = it.second;
+
+            for(auto itr: adj[node]){
+                int adjNode = itr.first;
+                int costTime = itr.second;
+                if(time+costTime < dist[adjNode]){
+                    dist[adjNode] = time+costTime;
                     pq.push({dist[adjNode], adjNode});
                 }
             }
         }
 
-        int ans = 0;
-        for(int i=1;i<n+1;i++){
-            // cout<<dist[i]<<" ";
+        int ans = INT_MIN;
+        for(int i=1;i<dist.size();i++){
             if(dist[i] == 1e9)return -1;
-            ans = max(ans, dist[i]);
+            ans= max(ans, dist[i]);
         }
         return ans;
     }
