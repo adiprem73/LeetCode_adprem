@@ -444,6 +444,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0788-rotated-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0788-rotated-digits/) | Medium |
 | [1340-jump-game-v](https://github.com/adiprem73/LeetCode_adprem/tree/main/1340-jump-game-v/) | Hard |
 | [1871-jump-game-vii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1871-jump-game-vii/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/adiprem73/LeetCode_adprem/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/adiprem73/LeetCode_adprem/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/adiprem73/LeetCode_adprem/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/adiprem73/LeetCode_adprem/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
@@ -563,6 +564,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/adiprem73/LeetCode_adprem/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/adiprem73/LeetCode_adprem/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -627,6 +629,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0210-course-schedule-ii/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/adiprem73/LeetCode_adprem/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Directed Acyclic Graph
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -657,9 +660,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/adiprem73/LeetCode_adprem/tree/main/0743-network-delay-time/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/adiprem73/LeetCode_adprem/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/adiprem73/LeetCode_adprem/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/adiprem73/LeetCode_adprem/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [1976-number-of-ways-to-arrive-at-destination](https://github.com/adiprem73/LeetCode_adprem/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 <!---LeetCode Topics End-->
