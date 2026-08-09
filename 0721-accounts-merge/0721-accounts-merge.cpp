@@ -1,16 +1,17 @@
 class Solution {
+public:
 
 class DisjointSet{
     private:
-    vector<int> parent, size;
+    vector<int> size, parent;
 
     public:
     DisjointSet(int n){
-        parent.resize(n+1);
-        for(int i=0;i<=n;i++){
-            parent[i]=i;
+        size.resize(n, 0);
+        parent.resize(n);
+        for(int i=0;i<n;i++){
+            parent[i] = i;
         }
-        size.resize(n+1, 1);
     }
 
     int findUParent(int u){
@@ -19,49 +20,53 @@ class DisjointSet{
         return parent[u] = findUParent(parent[u]);
     }
 
-
     void unionBySize(int u, int v){
-        int ulP_u = findUParent(u);
-        int ulP_v = findUParent(v);
-        if(ulP_u == ulP_v) return;
+        int ulpu = findUParent(u);
+        int ulpv = findUParent(v);
 
-        if(size[ulP_u] < size[ulP_v]){
-            parent[ulP_u]= ulP_v;
-            size[ulP_v]+= size[ulP_u];
+        if(ulpu == ulpv)return;
+
+        if(size[ulpv] > size[ulpu]){
+            parent[ulpu]=ulpv;
+            size[ulpv]+= size[ulpu];
         }
         else{
-            parent[ulP_v]= ulP_u;
-            size[ulP_u]+= size[ulP_v];
+            parent[ulpv]=ulpu;
+            size[ulpu]+= size[ulpv];
         }
     }
 };
 
-
-public:
     vector<vector<string>> accountsMerge(vector<vector<string>>& accounts) {
-        
-        int n = accounts.size();
-        DisjointSet ds(n+1);
+        // we provide indexes to the entire thing. 
+        // which means each accounts in accounts becomes a node
+        // we will make a map data structure, in which we will put the emails with their node numbers. if an email comes which is like already in some other node, we will union the two nodes involved.
+        // then attach the emails from the map to the parents of their nodes
+
         unordered_map<string,int> mp;
+        int n = accounts.size();
+        DisjointSet ds(n);
+
+
         for(int i=0;i<n;i++){
-            int size = accounts[i].size();
-            for(int j=1;j<size;j++){
-                string mail = accounts[i][j];
-                if(mp.find(mail) == mp.end()){
-                    mp[mail]= i;
-                } 
-                else{
-                    ds.unionBySize(i, mp[mail]);
-                }               
+            for(int j=1;j<accounts[i].size();j++){
+                if(mp.find(accounts[i][j]) == mp.end()){
+                    mp[accounts[i][j]] = i;
+                }else{
+                    ds.unionBySize(i,mp[accounts[i][j]]);
+                }
             }
         }
-        vector<string> mergedMail[n];
+
+        vector<vector<string>> mergedMail(n);
         for(auto it: mp){
             string mail = it.first;
             int node = ds.findUParent(it.second);
             mergedMail[node].push_back(mail);
         }
+
         vector<vector<string>> ans;
+
         for(int i=0;i<n;i++){
             if(mergedMail[i].size() == 0)continue;
             sort(mergedMail[i].begin(), mergedMail[i].end());
@@ -70,8 +75,10 @@ public:
             for(auto it: mergedMail[i]){
                 temp.push_back(it);
             }
+
             ans.push_back(temp);
         }
+
         return ans;
     }
 };
