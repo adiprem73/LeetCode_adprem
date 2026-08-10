@@ -179,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/adiprem73/LeetCode_adprem/tree/main/0022-generate-parentheses/) | Medium |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0127-word-ladder](https://github.com/adiprem73/LeetCode_adprem/tree/main/0127-word-ladder/) | Hard |
+| [0556-next-greater-element-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0556-next-greater-element-iii/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0796-rotate-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/0796-rotate-string/) | Easy |
 | [1189-maximum-number-of-balloons](https://github.com/adiprem73/LeetCode_adprem/tree/main/1189-maximum-number-of-balloons/) | Easy |
@@ -341,6 +342,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/adiprem73/LeetCode_adprem/tree/main/0062-unique-paths/) | Medium |
 | [0372-super-pow](https://github.com/adiprem73/LeetCode_adprem/tree/main/0372-super-pow/) | Medium |
 | [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
+| [0556-next-greater-element-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0556-next-greater-element-iii/) | Medium |
 | [0788-rotated-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0788-rotated-digits/) | Medium |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/adiprem73/LeetCode_adprem/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
@@ -385,6 +387,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
+| [0556-next-greater-element-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0556-next-greater-element-iii/) | Medium |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/adiprem73/LeetCode_adprem/tree/main/1861-rotating-the-box/) | Medium |
