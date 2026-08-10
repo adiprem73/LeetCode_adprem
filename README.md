@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0494-target-sum/) | Medium |
 | [0495-teemo-attacking](https://github.com/adiprem73/LeetCode_adprem/tree/main/0495-teemo-attacking/) | Easy |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
+| [0503-next-greater-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0518-coin-change-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0518-coin-change-ii/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
@@ -424,6 +425,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0155-min-stack](https://github.com/adiprem73/LeetCode_adprem/tree/main/0155-min-stack/) | Medium |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
+| [0503-next-greater-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0503-next-greater-element-ii/) | Medium |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 ## Dynamic Programming
@@ -627,6 +629,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
+| [0503-next-greater-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0503-next-greater-element-ii/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
