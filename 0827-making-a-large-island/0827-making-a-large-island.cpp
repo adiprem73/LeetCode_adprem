@@ -1,125 +1,99 @@
-class DisjointSet
-{
+class Solution {
 
-public:
-    vector<int> rank, parent, size;
-    DisjointSet(int n)
-    {
-        rank.resize(n + 1, 0);
-        size.resize(n + 1, 1);
-        parent.resize(n + 1);
-        for (int i = 0; i <= n; i++)
-        {
+class DisjointSet{
+    vector<int> parent, size;
+
+    public:
+    DisjointSet(int n){
+        parent.resize(n);
+        for(int i=0;i<n;i++){
             parent[i] = i;
         }
+        size.resize(n, 1);
     }
 
-    int findUPar(int node)
-    {
-        if (node == parent[node])
-        {
-            return node;
-        }
-        return parent[node] = findUPar(parent[node]); // this is how path compression would take place. we store the parent in parent[node]
-    }
-    // Union by rank
-    void unionByRank(int u, int v)
-    {
-        int ulp_u = findUPar(u);
-        int ulp_v = findUPar(v);
-        if (ulp_u == ulp_v)
-            return;
+    int findUParent(int u){
+        if(parent[u] == u)return u;
 
-        if (rank[ulp_u] < rank[ulp_v])
-        {
-            parent[ulp_u] = ulp_v;
-        }
-        else if (rank[ulp_v] < rank[ulp_u])
-        {
-            parent[ulp_v] = ulp_u;
-        }
-        else
-        {
-            parent[ulp_v] = ulp_u;
-            rank[ulp_u]++;
+        return parent[u] = findUParent(parent[u]);
+    }
+
+    void unionBySize(int u, int v){
+        int ulpu = findUParent(u);
+        int ulpv = findUParent(v);
+        if(ulpu == ulpv)return;
+
+        if(size[ulpu] > size[ulpv]){
+            parent[ulpv]= ulpu;
+            size[ulpu]+= size[ulpv];
+        }else{
+            parent[ulpu]= ulpv;
+            size[ulpv]+= size[ulpu];
         }
     }
 
-    // Union by Size
-    void unionBySize(int u, int v)
-    {
-        int ulp_u = findUPar(u);
-        int ulp_v = findUPar(v);
-        if (ulp_u == ulp_v)
-            return;
-
-        if (size[ulp_u] < size[ulp_v])
-        {
-            parent[ulp_u] = ulp_v;
-            size[ulp_v] += size[ulp_u];
-        }
-        else
-        {
-            parent[ulp_v] = ulp_u;
-            size[ulp_u] += size[ulp_v];
-        }
+    int getSize(int u){
+        int ulpu = findUParent(u);
+        return size[ulpu];
     }
 };
 
-class Solution {
-public:
-    bool isValid(int newr, int newc , int n){
-    return newr>=0 && newr<n && newc>=0 && newc<n;
+int findNode(int r, int c, int n){
+    return r*n + c;
 }
 
-int largestIsland(vector<vector<int>> &grid)
-{
-    int n = grid.size();
-    DisjointSet ds(n*n);
-    for(int row =0;row<n;row++){
-        for(int col=0;col<n;col++){
-            if(grid[row][col] == 0)continue;
-            int dr[]= {-1,0,1,0};
-            int dc[]= {0,-1,0,1};
-            for(int ind =0; ind<4;ind++){
-                int newr = row+dr[ind];
-                int newc = col+dc[ind];
-                if(isValid(newr, newc, n) && grid[newr][newc] == 1){
-                    int nodeNo = row*n + col;
-                    int adjNodeNo = newr*n + newc;
-                    ds.unionBySize(nodeNo, adjNodeNo);
-                }
-            }
-        }
-    }
-    int mx =0;
-    for(int row =0;row<n;row++){
-        for(int col=0;col<n;col++){
-            if(grid[row][col] == 1)continue;
-            int dr[] = {-1, 0, 1, 0};
-            int dc[] = {0, -1, 0, 1};
-            set<int> components;
-            for (int ind = 0; ind < 4; ind++)
-            {
-                int newr = row + dr[ind];
-                int newc = col + dc[ind];
-                if(isValid(newr, newc, n)){
-                    if(grid[newr][newc] == 1){
-                        components.insert(ds.findUPar(newr*n + newc));
+public:
+    int largestIsland(vector<vector<int>>& grid) {
+        int n = grid.size();
+        bool hasZero =false;
+        // make the disjoing set
+        int Dsize = n*n +2;
+        DisjointSet ds(Dsize);
+        int dr[] = {-1,0,1,0};
+        int dc[] = {0,1,0,-1};
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                if(grid[i][j] == 1){
+                    for(int k=0;k<4;k++){
+                        int nr = i+dr[k];
+                        int nc = j+dc[k];
+                        if(nr>=0 && nr<n && nc>=0 && nc<n){
+                            if(grid[nr][nc] == 1){
+                                int node = findNode(i,j,n);
+                                int adjNode = findNode(nr,nc,n);
+                                ds.unionBySize(node, adjNode);
+                            }
+                        }
                     }
                 }
             }
-            int sizeTotal =0;
-            for(auto it: components){
-                sizeTotal+= ds.size[it];
-            }
-            mx = max(mx, sizeTotal+1);
         }
-    }
 
-    for(int cellNo = 0; cellNo<n*n ; cellNo++){
-        mx = max(mx, ds.size[ds.findUPar(cellNo)]);
+        // now the disjiong set is already done
+        int ans =0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<n;j++){
+                int currentSize =0;
+                if(grid[i][j] == 0){
+                    hasZero = true;
+                    unordered_set<int> st;
+                    for(int k=0;k<4;k++){
+                        int nr = i+dr[k];
+                        int nc = j+dc[k];
+                        if(nr>=0 && nr<n && nc>=0 && nc<n){
+                            if(grid[nr][nc] == 1){
+                                int adjNode = findNode(nr,nc,n);
+                                if(st.find(ds.findUParent(adjNode)) != st.end())continue;
+                                st.insert(ds.findUParent(adjNode));
+                                currentSize += ds.getSize(adjNode);
+                            }
+                        }
+                    }
+                }
+                ans= max(ans, currentSize+1);
+            }
+        }
+        if(!hasZero)return n*n;
+        return ans;
     }
-    return mx;
-}
 };
