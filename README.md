@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0493-reverse-pairs](https://github.com/adiprem73/LeetCode_adprem/tree/main/0493-reverse-pairs/) | Hard |
 | [0494-target-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0494-target-sum/) | Medium |
 | [0495-teemo-attacking](https://github.com/adiprem73/LeetCode_adprem/tree/main/0495-teemo-attacking/) | Easy |
+| [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 | [0518-coin-change-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0518-coin-change-ii/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
@@ -218,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/adiprem73/LeetCode_adprem/tree/main/0127-word-ladder/) | Hard |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/adiprem73/LeetCode_adprem/tree/main/1189-maximum-number-of-balloons/) | Easy |
@@ -421,6 +423,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0155-min-stack](https://github.com/adiprem73/LeetCode_adprem/tree/main/0155-min-stack/) | Medium |
+| [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 | [2116-check-if-a-parentheses-string-can-be-valid](https://github.com/adiprem73/LeetCode_adprem/tree/main/2116-check-if-a-parentheses-string-can-be-valid/) | Medium |
 | [2751-robot-collisions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2751-robot-collisions/) | Hard |
 ## Dynamic Programming
@@ -623,6 +626,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
+| [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
