@@ -16,14 +16,14 @@ public:
         }
         reverse(right.begin(), right.end());
         int ans =0;
-        for(int i=0;i<n;i++){
-            cout<<left[i]<<" ";
-        }
-        cout<<endl;
-        for(int i=0;i<n;i++){
-            cout<<right[i]<<" ";
-        }
-        cout<<endl;
+        // for(int i=0;i<n;i++){
+        //     cout<<left[i]<<" ";
+        // }
+        // cout<<endl;
+        // for(int i=0;i<n;i++){
+        //     cout<<right[i]<<" ";
+        // }
+        // cout<<endl;
         for(int i=0;i<n;i++){
             if( min(left[i], right[i])> height[i]){
                 ans += min(left[i], right[i])  - height[i];
