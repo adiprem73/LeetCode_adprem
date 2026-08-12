@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0216-combination-sum-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0216-combination-sum-iii/) | Medium |
+| [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0322-coin-change](https://github.com/adiprem73/LeetCode_adprem/tree/main/0322-coin-change/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -369,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0743-network-delay-time](https://github.com/adiprem73/LeetCode_adprem/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -432,6 +434,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
 | [1871-jump-game-vii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1871-jump-game-vii/) | Medium |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2134-minimum-swaps-to-group-all-1s-together-ii/) | Medium |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/adiprem73/LeetCode_adprem/tree/main/3090-maximum-length-substring-with-two-occurrences/) | Easy |
@@ -704,6 +707,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/adiprem73/LeetCode_adprem/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
 ## Quicksort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -712,4 +716,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/adiprem73/LeetCode_adprem/tree/main/0075-sort-colors/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
 <!---LeetCode Topics End-->
