@@ -9,50 +9,52 @@
  * };
  */
 class Solution {
-public:
-    ListNode* findMiddle(ListNode* head){
-    ListNode* slow=head;
-    ListNode* fast=head->next;
+private:
+    ListNode* findMiddle(ListNode* node){
+        ListNode* slow = node;
+        ListNode* fast = node->next; // this is so sthat we get the first middle
 
-    while(fast && fast->next){
-        slow=slow->next;
-        fast=fast->next->next;
-    }
-    return slow;
-}
-ListNode* merge(ListNode* node1, ListNode* node2){
-    //this is the part where we would merge two linked lists in merge sort fashio
-    ListNode* dummy= new ListNode(0); //we often take a dummy list starting from 0 to properly store the answer. we will return dummy->next at the end of the program
-
-    ListNode* temp=dummy; //this will basiclaly be used as a ptr to traverse on dummy
-    while(node1 && node2){
-        if(node1->val<node2->val){
-            temp->next=node1;
-            node1=node1->next;
-        }else{
-            temp->next=node2;
-            node2=node2->next;
+        while(fast!= nullptr && fast->next != nullptr){
+            slow= slow->next;
+            fast= fast->next->next;
         }
-        temp=temp->next; //after every assignment we move the temp forward
+        return slow;
     }
-    temp->next = (node1) ? node1 : node2;// this will append any remaining node. there will be atmoset 1 remaining node
-    return dummy->next;
-}
 
+    ListNode* mergeLists(ListNode* node1, ListNode* node2){
+        ListNode* p1= node1;
+        ListNode* p2 = node2;
+        // we will also use a dummy node
+        ListNode* dummy = new ListNode(-1);
+        ListNode* temp = dummy;
+        while(p1!=nullptr && p2!=nullptr){
+            if(p1->val < p2->val){
+                temp->next = p1;
+                temp = p1;
+                p1=p1->next;
+            }else{
+                temp->next = p2;
+                temp = p2;
+                p2 = p2->next;
+            }
+        }
+        if(p1)temp->next = p1;
+        else temp->next = p2;
 
-ListNode* sortList(ListNode *head){
+        return dummy->next;
+    }
 
-    if(!head || !head->next)return head; //if the ll is empty or has only one node then return that only
+public:
+    ListNode* sortList(ListNode* head) {
+        if(head == nullptr || head->next == nullptr)return head;
 
-    ListNode* mid= findMiddle(head);
-    // cout<<mid->val<<endl;
-    ListNode* righthalf= mid->next;
-    mid->next= nullptr; //to split them into two halves
+        ListNode* middle = findMiddle(head);
+        ListNode* right = middle->next;
+        middle->next = nullptr;
+        ListNode* left = head;
 
-    ListNode* leftSorted= sortList(head);
-    ListNode* rightSorted= sortList(righthalf);
-
-    return merge(leftSorted, rightSorted);
-
-}
+        left = sortList(left);
+        right = sortList(right);
+        return mergeLists(left, right);
+    }
 };
