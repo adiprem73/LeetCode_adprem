@@ -212,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0050-powx-n](https://github.com/adiprem73/LeetCode_adprem/tree/main/0050-powx-n/) | Medium |
 | [0206-reverse-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0234-palindrome-linked-list/) | Easy |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [2550-count-collisions-of-monkeys-on-a-polygon](https://github.com/adiprem73/LeetCode_adprem/tree/main/2550-count-collisions-of-monkeys-on-a-polygon/) | Medium |
 ## Simulation
@@ -403,6 +404,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/adiprem73/LeetCode_adprem/tree/main/0075-sort-colors/) | Medium |
 | [0141-linked-list-cycle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
@@ -430,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0141-linked-list-cycle/) | Easy |
 | [0142-linked-list-cycle-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0206-reverse-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0725-split-linked-list-in-parts](https://github.com/adiprem73/LeetCode_adprem/tree/main/0725-split-linked-list-in-parts/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0876-middle-of-the-linked-list/) | Easy |
@@ -457,6 +460,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0042-trapping-rain-water/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/adiprem73/LeetCode_adprem/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0155-min-stack](https://github.com/adiprem73/LeetCode_adprem/tree/main/0155-min-stack/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0402-remove-k-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0503-next-greater-element-ii/) | Medium |
