@@ -10,31 +10,28 @@
  */
 class Solution {
 public:
-    ListNode *deleteMiddle(ListNode *head)
-{
-    //first find the middle using tortroise hare method
-    if(head==nullptr){
-        return nullptr;
-    }
-    if(head->next== nullptr){
-        ListNode* ln= nullptr;
-        return ln;
-    }
-    ListNode* fast=head;
-    ListNode* slow=head;
-    // we can modify the hare tortoise into givinf the node just before the slow node or the middle node
+    ListNode* deleteMiddle(ListNode* head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+        ListNode* slowTail = nullptr;
+        while(fast!=nullptr && fast->next!= nullptr){
+            slowTail = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
 
-    ListNode* prev=nullptr;
-    while(fast&& fast->next){
-        prev=slow;
-        slow = slow->next;
-        fast=fast->next->next;
+
+        // now slow is the middle
+        // we need to delete it
+
+        // edge cases:
+        if(head==nullptr)return nullptr;
+        if(head->next == nullptr)return nullptr;
+        
+
+        slowTail->next = slowTail->next->next;
+        slow->next = nullptr;
+
+        return head;
     }
-    // now prev->next is the node to be delete
-    // cout<<slow->val<<endl;
-    ListNode* nodeToBeDeleted= prev->next;
-    prev->next= prev->next->next;
-    delete nodeToBeDeleted;
-    return head;
-}
 };
