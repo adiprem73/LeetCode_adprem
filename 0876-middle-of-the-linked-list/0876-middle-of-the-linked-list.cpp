@@ -10,26 +10,14 @@
  */
 class Solution {
 public:
-    ListNode *middleNode(ListNode *head)
-{
-    int cnt = 0;
-    ListNode *temp = head;
-    while (temp)
-    {
-        cnt++;
-        temp = temp->next;
-    }
-    // cout<<cnt;
-    ListNode *temp2 = head;
-    int cnt2 = 0;
-    while (temp2)
-    {
-        cnt2++;
-        if (cnt2 == cnt / 2 + 1)
-            return temp2;
-        temp2 = temp2->next;
-    }
+    ListNode* middleNode(ListNode* head) {
+        ListNode* p1 = head;
+        ListNode* p2 = head;
 
-    return head;
-}
+        while(p2 != nullptr and p2->next != nullptr){
+            p1=p1->next;
+            p2=p2->next->next;
+        }
+        return p1;
+    }
 };
