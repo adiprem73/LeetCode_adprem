@@ -10,47 +10,42 @@
  */
 class Solution {
 public:
-    bool isPalindrome(ListNode *head)
-{
-    //finding the midpoint with tortoise and rabbit approach
-    ListNode* slow=head;
-    ListNode* fast=head;
+    bool isPalindrome(ListNode* head) {
+        // optimal way to do this --> find the middle of the LL --> reverse the second half of the LL --> iteratre through the two halves and check if we find any mismatch
 
-    while(fast->next && fast->next->next){
-        slow=slow->next;
-        fast=fast->next->next;
-    }
-
-    //now we know that the slow node is the middle node. now we need to reverse the 2nd part of the ll
-
-    ListNode* curr= slow->next;
-    ListNode* prev= nullptr;
-    if(slow->next==nullptr){
-        if(slow->val==head->val)return true;
-        return false;
-    }
-    // cout<<"middle: "<<slow->val<<endl;
-    while(curr!= nullptr){
-        ListNode* nextNode= curr->next;
-        curr->next= prev;
-        prev= curr;
-        curr= nextNode;
-    }
-    // now the 2nd part of the loop is reversed
-
-    ListNode* node1= head;
-    ListNode* node2= prev;
-    // cout<<"node1: "<<node1->val<<endl;
-    // cout << "node2: " << node2->val<<endl;
-
-    //comparing the two halves
-    while(node2){ //since node 2 will always be the shorter half
-        if(node1->val!=node2->val){
-            return false;
+        // 1. to find the middle of the LL: tortoise and ahre appraoch
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while(fast!= nullptr && fast->next != nullptr){
+            slow= slow->next;
+            fast= fast->next->next;
         }
-        node1=node1->next;
-        node2=node2->next;
+
+        cout<<slow->val<<endl;
+        // so slow s the middle of the ll
+        // reversing the linked list
+
+        ListNode* temp = slow;
+        ListNode* prevNode = nullptr;
+        while(temp!=nullptr){
+            ListNode* nextNode = temp->next;
+            temp->next = prevNode;
+            prevNode=  temp;
+            temp = nextNode;
+        }
+
+
+
+        ListNode* p1 = head;
+        ListNode* p2 = prevNode;
+        while(p1!=nullptr && p2!= nullptr){
+            if(p1->val != p2->val){
+                return false;
+            }
+            p1 = p1->next;
+            p2 = p2->next;
+        }
+
+        return true;
     }
-    return true;
-}
 };
