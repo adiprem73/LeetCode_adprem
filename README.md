@@ -210,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/adiprem73/LeetCode_adprem/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0050-powx-n](https://github.com/adiprem73/LeetCode_adprem/tree/main/0050-powx-n/) | Medium |
 | [0206-reverse-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0234-palindrome-linked-list/) | Easy |
@@ -434,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0025-reverse-nodes-in-k-group](https://github.com/adiprem73/LeetCode_adprem/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0061-rotate-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0061-rotate-list/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0141-linked-list-cycle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0141-linked-list-cycle/) | Easy |
