@@ -6,32 +6,30 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
+
+ // 1. detecting the loop
+ // 2. findig the starting of the loop:
+    // we again take a slow at the head of the LL. and then we move them simlutaneously by one - one posotion. the place where they meet is our answer
 class Solution {
 public:
-    ListNode *detectCycle(ListNode *head)
-{
-    ListNode *slow = head;
-    ListNode *fast = head;
-    while (fast && fast->next)
-    {
-        slow = slow->next;
-        fast = fast->next->next;
-        if (fast == slow)
-        {
-            fast = head; // when they meet we have to keep sloe there only and then take fast back to the start that is head of the linked list and then start moving them one step at a time. the pt where they meet now will be the start of the loop
-            while (true)
-            {
-                if (slow == fast)
-                {
-                    return slow;
+    ListNode *detectCycle(ListNode *head) {
+        ListNode* slow = head;
+        ListNode* fast = head;
+
+        while(slow!= nullptr && fast!= nullptr && fast->next != nullptr){
+            slow = slow->next;
+            fast = fast->next->next;
+
+            if(slow == fast){
+                // now the cycle has been detected
+                slow = head;
+                while(slow != fast){
+                    slow = slow->next;
+                    fast = fast->next;
                 }
-                slow = slow->next;
-                fast = fast->next;
-                
+                return slow;
             }
         }
-        
-    }return nullptr;
-}
-
+        return nullptr;
+    }
 };
