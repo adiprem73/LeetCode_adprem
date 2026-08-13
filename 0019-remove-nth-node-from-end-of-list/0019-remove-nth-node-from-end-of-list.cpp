@@ -10,41 +10,28 @@
  */
 class Solution {
 public:
-    ListNode *removeNthFromEnd(ListNode *head, int n)
-{
-    if(head==nullptr)return head;
-    int size=0;
-    ListNode* temp= head;
-    while(temp!=nullptr){
-        size++;
-        temp=temp->next;
-    }
-    if(size==1){
-        if(n<=size){
-            return nullptr;
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        int len =0; //5
+        ListNode* temp = head;
+        while(temp!= nullptr){
+            temp = temp->next;
+            len++;
         }
-    }
-    if(size==2){
-        if(n==1){
-            head->next=nullptr;
-            return head;
-        }else if(n==2){
-            ListNode* temp=head->next;
-            head->next=nullptr;
-            delete head;
-            return temp;
+        // Removing head
+        if (n == len) {
+            return head->next;
         }
-    }
-    // cout<<size<<endl;
-    int i= size-n-1;
-    temp=head;
-    while(i--){
-        temp=temp->next;
-    }
-    ListNode* nodeDelete=temp->next;
-    temp->next=temp->next->next;
-    delete nodeDelete;
-    return head;
-}
 
+
+        if(len == 1 && n == 1)return nullptr;
+        if(len == 1)return head;
+        cout<<len<<endl;
+        int nodeRemoved = len - n - 1;
+        temp = head;
+        while(nodeRemoved--){
+            temp=temp->next;
+        }
+        temp->next = temp->next->next;
+        return head;
+    }
 };
