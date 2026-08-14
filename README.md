@@ -496,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0064-minimum-path-sum/) | Medium |
 | [0120-triangle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0120-triangle/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0322-coin-change](https://github.com/adiprem73/LeetCode_adprem/tree/main/0322-coin-change/) | Medium |
 | [0377-combination-sum-iv](https://github.com/adiprem73/LeetCode_adprem/tree/main/0377-combination-sum-iv/) | Medium |
 | [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
@@ -544,6 +545,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
+| [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0130-surrounded-regions](https://github.com/adiprem73/LeetCode_adprem/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
@@ -658,6 +660,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
+| [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
@@ -669,6 +672,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
+| [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
@@ -778,5 +782,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## DP on Trees
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
 <!---LeetCode Topics End-->
