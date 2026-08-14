@@ -11,19 +11,26 @@
  */
 class Solution {
 public:
-    int height(TreeNode* root, int& dia){
-    if(root==NULL){
-        return 0;
-    }
-    int lh=height(root->left, dia);
-    int rh=height(root->right,dia);
-    dia=max(dia, rh+lh);
-    return 1+max(lh,rh);
-}
+    int findMaxi(TreeNode* root, int &maxi){
+        // base case
+        if(root==nullptr){
+            return 0;
+        }
+        int lh=0, rh=0;
 
-int diameterOfBinaryTree(TreeNode* root) {
-        int dia=0;
-        height(root,dia);
-        return dia;
+        if(root->left!=nullptr){
+            lh = findMaxi(root->left, maxi);
+        }
+        if(root->right!=nullptr){
+            rh = findMaxi(root->right, maxi);
+        }
+        maxi = max(maxi, lh+rh);
+        return 1+max(lh,rh);
+    }
+
+    int diameterOfBinaryTree(TreeNode* root) {
+        int maxi =0;
+        findMaxi(root, maxi);
+        return maxi;
     }
 };
