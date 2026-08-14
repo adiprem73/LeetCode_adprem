@@ -12,18 +12,24 @@
 class Solution {
 public:
 
-    int findMaxPath(TreeNode* root, int& maxPath){
-    if(root==NULL)return 0;
-    int leftsum= max(0,findMaxPath(root->left, maxPath));
-    int rightsum= max(0,findMaxPath(root->right, maxPath));
-    maxPath= max(maxPath, leftsum+rightsum+root->val);
-    return (root->val) + max(leftsum, rightsum);
-}
+    int func(TreeNode* root, int& maxi){
+        if(root==nullptr){
+            return 0;
+        }
+        int left=0, right=0;
+        if(root->left!=nullptr){
+            left = max(0, func(root->left, maxi));
+        }
+        if(root->right!=nullptr){
+            right = max(0, func(root->right, maxi));
+        }
+        maxi=max(maxi, left+right+root->val);
+        return max(left, right)+root->val;
+    }
 
-
-int maxPathSum(TreeNode* root) {
-    int maxPath=INT_MIN;
-    findMaxPath(root, maxPath);
-    return maxPath;
-}
+    int maxPathSum(TreeNode* root) {
+        int maxi=INT_MIN;
+        func(root, maxi);
+        return maxi;
+    }
 };
