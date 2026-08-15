@@ -545,6 +545,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0100-same-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0101-symmetric-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
@@ -598,6 +599,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0100-same-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0101-symmetric-tree/) | Easy |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/adiprem73/LeetCode_adprem/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0127-word-ladder](https://github.com/adiprem73/LeetCode_adprem/tree/main/0127-word-ladder/) | Hard |
@@ -665,6 +667,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0100-same-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0101-symmetric-tree/) | Easy |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/adiprem73/LeetCode_adprem/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0110-balanced-binary-tree/) | Easy |
@@ -680,6 +683,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0100-same-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0101-symmetric-tree/) | Easy |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/adiprem73/LeetCode_adprem/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0110-balanced-binary-tree/) | Easy |
