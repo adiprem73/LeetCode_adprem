@@ -11,16 +11,23 @@
  */
 class Solution {
 public:
-    bool isSymmstericUtil(TreeNode* root1, TreeNode* root2){
-    if(root1==NULL || root2==NULL){
-        return root1==root2;
+    bool check(TreeNode* ptr1, TreeNode* ptr2){
+        // base cases
+        if(ptr1 == nullptr && ptr2 == nullptr)return true;
+        if(ptr1==nullptr && ptr2 != nullptr)return false;
+        if(ptr1!=nullptr && ptr2 == nullptr)return false;
+
+        if(ptr1->val != ptr2->val )return false;
+
+        int one = check(ptr1->left, ptr2->right);
+        int two = check(ptr1->right, ptr2->left);
+        return one && two;
     }
 
-    return((root1->val==root2->val) && isSymmstericUtil(root1->left, root2->right) && isSymmstericUtil(root1->right, root2->left));
-}
+    bool isSymmetric(TreeNode* root) {
+        if(!root)return true;
+        if(root->left ==nullptr && root->right == nullptr)return true;
 
-bool isSymmetric(TreeNode* root){
-    if(!root)return true;
-    return isSymmstericUtil(root->left, root->right);
-}
+        return check(root->left, root->right);
+    }
 };
