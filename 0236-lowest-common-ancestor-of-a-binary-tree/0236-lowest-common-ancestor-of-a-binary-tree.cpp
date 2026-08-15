@@ -10,19 +10,24 @@
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        // base case: if the node is found to be wither p or q then we return p and q and if the node is null then we return null
-        if(root == nullptr || root == p ||  root ==q){
-            return root;
-        }
 
-        // normal
-        TreeNode * left = lowestCommonAncestor(root->left, p, q);
-        TreeNode * right = lowestCommonAncestor(root->right, p,q);
+    if (!root) return nullptr;
 
-        if(left == nullptr)return right;
-        else if(right == nullptr)return left;
-        else{ // this is the case wehre neither the left nor the right is null and hence we return the root ot be the lca
-            return root;
-        }
-    }
+    // Current node itself is one of p or q
+    if (root == p || root == q)
+        return root;
+
+    TreeNode* left = lowestCommonAncestor(root->left, p, q);
+    TreeNode* right = lowestCommonAncestor(root->right, p, q);
+
+    // p and q found in different subtrees
+    if (left && right)
+        return root;
+
+    // Both are not in different subtrees
+    if (left)
+        return left;
+
+    return right;
+}
 };
