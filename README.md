@@ -558,6 +558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/adiprem73/LeetCode_adprem/tree/main/0743-network-delay-time/) | Medium |
@@ -612,6 +613,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/adiprem73/LeetCode_adprem/tree/main/0743-network-delay-time/) | Medium |
@@ -677,6 +679,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
@@ -694,6 +697,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
