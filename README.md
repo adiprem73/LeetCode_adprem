@@ -242,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1189-maximum-number-of-balloons](https://github.com/adiprem73/LeetCode_adprem/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1345-jump-game-iv](https://github.com/adiprem73/LeetCode_adprem/tree/main/1345-jump-game-iv/) | Hard |
 | [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
@@ -324,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1340-jump-game-v](https://github.com/adiprem73/LeetCode_adprem/tree/main/1340-jump-game-v/) | Hard |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/adiprem73/LeetCode_adprem/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -563,6 +565,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1306-jump-game-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1306-jump-game-iii/) | Medium |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/adiprem73/LeetCode_adprem/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
@@ -614,6 +617,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/adiprem73/LeetCode_adprem/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0827-making-a-large-island](https://github.com/adiprem73/LeetCode_adprem/tree/main/0827-making-a-large-island/) | Hard |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0994-rotting-oranges](https://github.com/adiprem73/LeetCode_adprem/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1306-jump-game-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1306-jump-game-iii/) | Medium |
@@ -668,6 +672,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
@@ -682,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1315-sum-of-nodes-with-even-valued-grandparent](https://github.com/adiprem73/LeetCode_adprem/tree/main/1315-sum-of-nodes-with-even-valued-grandparent/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/adiprem73/LeetCode_adprem/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 ## Binary Indexed Tree
