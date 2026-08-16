@@ -11,7 +11,7 @@
  */
 class Solution {
 public:
-    TreeNode* build(vector<int>& preorder, vector<int>& inorder, int preStart, int preEnd, int inStart, int inEnd, map<int,int>& mp){
+    TreeNode* build(vector<int>& preorder, vector<int>& inorder, int preStart, int preEnd, int inStart, int inEnd, unordered_map<int,int>& mp){
         // base case
         if(preStart>preEnd || inStart>inEnd){
             return nullptr;
@@ -30,7 +30,7 @@ public:
 
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
         // hashing
-        map<int,int> mp;
+        unordered_map<int,int> mp;
         for(int i=0;i<inorder.size();i++){
             mp[inorder[i]] = i;
         }
