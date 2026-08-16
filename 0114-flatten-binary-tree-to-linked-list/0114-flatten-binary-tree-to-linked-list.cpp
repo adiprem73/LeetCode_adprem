@@ -10,19 +10,19 @@
  * };
  */
 class Solution {
-
-private:
-    TreeNode* prev;
 public:
-    void flatten(TreeNode *root)
-{
-    if(root == nullptr)return ;
-    flatten(root->right);
-    flatten(root->left);
+    TreeNode* prev= nullptr;
 
-    root->right= prev;
-    root->left= nullptr;
 
-    prev= root;
-}
+    void flatten(TreeNode* root) {
+        if(root == nullptr)return;
+
+        flatten(root->right);
+        flatten(root->left);
+
+        root->right = prev;
+        root->left = nullptr;
+
+        prev = root;
+    }
 };
