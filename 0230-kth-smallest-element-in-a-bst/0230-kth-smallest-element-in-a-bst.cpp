@@ -11,22 +11,30 @@
  */
 class Solution {
 public:
-    int inorder(TreeNode* root, int &cnt, int k){
-    if(root==NULL)return -1 ;
-    int left=inorder(root->left, cnt, k);
-    if(left!=-1) return left;
+    void func(TreeNode* node, int &k, int &ans){
+        // base case
+        if(!node)return;
+        
+        // visit left
+        func(node->left, k, ans);
 
-    cnt++;
-    if(cnt==k){
-        return root->val;
+        // if already found-> return
+        if(k==0)return;
+
+        k--;
+
+        if(k==0){
+            ans = node->val;
+            return;
+        }
+
+        func(node->right, k, ans);
+
     }
-    // cout<<root->val<<endl;
-    return inorder(root->right, cnt, k);
 
-}
-
-int kthSmallest(TreeNode* root, int k) {
-    int cnt=0;
-    return inorder(root, cnt, k);
-}
+    int kthSmallest(TreeNode* root, int k) {
+        int ans =0;
+        func(root, k, ans);
+        return ans;
+    }
 };
