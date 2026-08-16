@@ -564,6 +564,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/adiprem73/LeetCode_adprem/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0210-course-schedule-ii/) | Medium |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
@@ -694,6 +695,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0222-count-complete-tree-nodes](https://github.com/adiprem73/LeetCode_adprem/tree/main/0222-count-complete-tree-nodes/) | Medium |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
@@ -720,6 +722,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0222-count-complete-tree-nodes](https://github.com/adiprem73/LeetCode_adprem/tree/main/0222-count-complete-tree-nodes/) | Medium |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
@@ -849,6 +852,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
