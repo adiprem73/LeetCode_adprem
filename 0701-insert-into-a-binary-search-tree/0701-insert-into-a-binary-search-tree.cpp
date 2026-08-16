@@ -11,28 +11,29 @@
  */
 class Solution {
 public:
-    TreeNode* insertIntoBST(TreeNode* root, int key){
-    if(root==NULL)return new TreeNode(key);
-    TreeNode* temp=root; //making a copy since we need ot return the root
+    TreeNode* insertIntoBST(TreeNode* root, int val) {
+    if (root == nullptr)
+        return new TreeNode(val);
 
-    while(true){
-        if(temp->val>key){
-            if(temp->left!=NULL)temp=temp->left;
+    TreeNode* temp = root;
 
-            else{
-                temp->left= new TreeNode(key);
+    while (true) {
+        if (val < temp->val) {
+            if (temp->left == nullptr) {
+                temp->left = new TreeNode(val);
                 break;
             }
+            temp = temp->left;
         }
-        else{
-            if(temp->right!=NULL)temp=temp->right;
-
-            else{
-                temp->right= new TreeNode(key);
+        else {
+            if (temp->right == nullptr) {
+                temp->right = new TreeNode(val);
                 break;
             }
+            temp = temp->right;
         }
     }
+
     return root;
 }
 };
