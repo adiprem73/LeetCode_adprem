@@ -11,23 +11,16 @@
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if (!root) return nullptr;
+        if(root==nullptr)return nullptr;     
 
-    // Current node itself is one of p or q
-    if (root == p || root == q)
+        // when both are in left
+        if(root->val > p->val && root->val > q->val){
+            return lowestCommonAncestor(root->left, p, q);
+        }
+        if(root->val < p->val && root->val < q->val){
+            return lowestCommonAncestor(root->right, p, q);
+        }
+
         return root;
-
-    TreeNode* left = lowestCommonAncestor(root->left, p, q);
-    TreeNode* right = lowestCommonAncestor(root->right, p, q);
-
-    // p and q found in different subtrees
-    if (left && right)
-        return root;
-
-    // Both are not in different subtrees
-    if (left)
-        return left;
-
-    return right;
     }
 };
