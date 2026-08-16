@@ -11,31 +11,27 @@
  */
 class Solution {
 public:
-    TreeNode *buildTree(vector<int> &inorder, int inStart, int inEnd, vector<int> &postorder, int postStart, int postEnd, map<int, int> & inmap)
-{
 
-    if(postStart>postEnd || inStart> inEnd)return NULL;
+    TreeNode* build(vector<int>& inorder, vector<int>& postorder, int inStart, int inEnd, int postStart, int postEnd, unordered_map<int,int>& mp){
+        // base case
+        if(inStart>inEnd || postStart > postEnd)return nullptr;
+        int inRoot = mp[postorder[postEnd]];
+        int shift = inEnd-inRoot;
 
-    TreeNode* root = new TreeNode(postorder[postEnd]);
+        TreeNode* root = new TreeNode(inorder[inRoot]);
 
-    int ind_root = inmap[root->val];
-    int numsRight = inEnd - ind_root;
-    root->right = buildTree(inorder, ind_root+1, inEnd, postorder, postEnd- numsRight , postEnd-1, inmap);
+        root->left = build(inorder, postorder, inStart, inRoot-1, postStart, postEnd-shift-1, mp);
+        root->right = build(inorder, postorder, inRoot+1, inEnd, postEnd-shift, postEnd-1, mp);
 
-    root->left = buildTree(inorder,inStart ,ind_root-1 , postorder, postStart , postEnd-numsRight-1 , inmap);
-
-    return root;
-}
-
-TreeNode * buildTree(vector<int> &inorder, vector<int> &postorder)
-{
-    // the very first thing we need to do is to hash map the inorder 
-    map<int,int> inmap;
-    for(int i=0;i<inorder.size();i++){
-        inmap[inorder[i]]=i;
+        return root;
     }
 
-    TreeNode *root = buildTree(inorder, 0, inorder.size()-1, postorder, 0, postorder.size()-1, inmap);
-    return root;
-}
+    TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
+        unordered_map<int,int> mp;
+        for(int i=0;i<inorder.size();i++){
+            mp[inorder[i]]=i;
+        }
+
+        return build(inorder, postorder, 0, inorder.size()-1, 0, postorder.size()-1, mp);
+    }
 };
