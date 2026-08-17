@@ -9,44 +9,60 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+class BSTIterator{
+    public:
+    stack<TreeNode*> st;
+    bool reverse;
+    BSTIterator(TreeNode* root, bool isReverse){
+        reverse= isReverse;
+        pushAll(root);
+    }
+
+    bool hasNext(){
+        return !st.empty();
+    }
+
+    int next(){
+        auto node = st.top();
+        st.pop();
+        int temp = node->val;
+        // if not reverse
+        if(!reverse)pushAll(node->right);
+        else pushAll(node->left);
+        return temp;
+    }
+
+    void pushAll(TreeNode* node){
+        while(node!=nullptr){
+            st.push(node);
+            if(reverse == true){
+                node = node->right;
+            }else{
+                node = node->left;
+            }
+        }
+    }
+};
+
 class Solution {
 public:
-    void pushAllLeft(TreeNode* node, stack<TreeNode*> &st){
-    while(node){
-        st.push(node);
-        node=node->left;
-    }
-}
-
-void pushAllRight(TreeNode* node, stack<TreeNode*> &st){
-    while(node){
-        st.push(node);
-        node=node->right;
-    }
-}
 
 
-bool findTarget(TreeNode* root, int k) {
-    stack<TreeNode*> st1;
-    stack<TreeNode*> st2;
-    pushAllLeft(root, st1); //smallest
-    pushAllRight(root, st2); //largest
-    while(!st1.empty() && !st2.empty() && st1.top()!=st2.top()){
-        int sum=st1.top()->val + st2.top()->val;
-        if(sum == k)return true;
+    bool findTarget(TreeNode* root, int k) {
+        if(!root)return false;
 
-        else if(sum<k){
-            TreeNode* node=st1.top();
-            st1.pop();
-            pushAllLeft(node->right, st1);
+        BSTIterator l(root, false);
+        BSTIterator r(root, true);
+
+        int i = l.next();
+        int j = r.next();
+
+        while(i<j){
+            if(i+j == k)return true;
+            else if(i+j < k) i = l.next();
+            else j = r.next();
         }
-
-        else{
-            TreeNode* node= st2.top();
-            st2.pop();
-            pushAllRight(node->left, st2);
-        }
+        return false;
     }
-    return false;
-}
 };
