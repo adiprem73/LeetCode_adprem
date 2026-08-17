@@ -466,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/adiprem73/LeetCode_adprem/tree/main/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0901-online-stock-span](https://github.com/adiprem73/LeetCode_adprem/tree/main/0901-online-stock-span/) | Medium |
 | [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 ## Data Stream
@@ -487,6 +488,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/adiprem73/LeetCode_adprem/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0155-min-stack](https://github.com/adiprem73/LeetCode_adprem/tree/main/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0402-remove-k-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
@@ -697,6 +699,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/adiprem73/LeetCode_adprem/tree/main/0222-count-complete-tree-nodes/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -726,6 +729,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0113-path-sum-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0113-path-sum-ii/) | Medium |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
+| [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/adiprem73/LeetCode_adprem/tree/main/0222-count-complete-tree-nodes/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
@@ -862,10 +866,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/adiprem73/LeetCode_adprem/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
 <!---LeetCode Topics End-->
