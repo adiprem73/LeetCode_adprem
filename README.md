@@ -245,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/adiprem73/LeetCode_adprem/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
@@ -426,6 +427,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 | [0556-next-greater-element-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0556-next-greater-element-iii/) | Medium |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [1237-find-positive-integer-solution-for-a-given-equation](https://github.com/adiprem73/LeetCode_adprem/tree/main/1237-find-positive-integer-solution-for-a-given-equation/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/adiprem73/LeetCode_adprem/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -574,6 +576,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
@@ -630,6 +633,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/adiprem73/LeetCode_adprem/tree/main/0547-number-of-provinces/) | Medium |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
@@ -707,6 +711,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
@@ -737,6 +742,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0450-delete-node-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/adiprem73/LeetCode_adprem/tree/main/0515-find-largest-value-in-each-tree-row/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0662-maximum-width-of-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
@@ -870,6 +876,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0450-delete-node-in-a-bst/) | Medium |
+| [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0700-search-in-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/adiprem73/LeetCode_adprem/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
