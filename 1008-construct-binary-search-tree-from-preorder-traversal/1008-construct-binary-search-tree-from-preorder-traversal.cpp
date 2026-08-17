@@ -1,33 +1,54 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
- *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- * };
- */
 class Solution {
 public:
-    TreeNode* insertion(TreeNode* root, int val){
-    if(root==NULL) return new TreeNode(val);
-    if(root->val>val){
-        root->left= insertion(root->left, val);
-    }else{
-        root->right= insertion(root->right, val);
-    }
-    return root;
-}
+    TreeNode* func(vector<int>& preorder, vector<int>& inorder,
+                   int inStart, int inEnd,
+                   int preStart, int preEnd,
+                   unordered_map<int,int>& mp) {
 
-TreeNode* bstFromPreorder(vector<int>& preorder) {
-    if(preorder.size()==0)return nullptr;
-    TreeNode* root= new TreeNode(preorder[0]);
-    for(int i=0;i<preorder.size();i++){
-        insertion(root, preorder[i]);
+        if (inStart > inEnd || preStart > preEnd)
+            return nullptr;
+
+        int rootValue = preorder[preStart];
+        int inRoot = mp[rootValue];
+
+        int numsToLeft = inRoot - inStart;
+
+        TreeNode* node = new TreeNode(rootValue);
+
+        node->left = func(
+            preorder, inorder,
+            inStart, inRoot - 1,
+            preStart + 1,
+            preStart + numsToLeft,
+            mp
+        );
+
+        node->right = func(
+            preorder, inorder,
+            inRoot + 1, inEnd,
+            preStart + numsToLeft + 1,
+            preEnd,
+            mp
+        );
+
+        return node;
     }
 
-    return root;
-}
+    TreeNode* bstFromPreorder(vector<int>& preorder) {
+
+        vector<int> inorder = preorder;
+        sort(inorder.begin(), inorder.end());
+
+        unordered_map<int,int> mp;
+
+        for (int i = 0; i < inorder.size(); i++)
+            mp[inorder[i]] = i;
+
+        return func(
+            preorder, inorder,
+            0, inorder.size() - 1,
+            0, preorder.size() - 1,
+            mp
+        );
+    }
 };
