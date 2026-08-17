@@ -1,54 +1,30 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
 class Solution {
 public:
-    TreeNode* func(vector<int>& preorder, vector<int>& inorder,
-                   int inStart, int inEnd,
-                   int preStart, int preEnd,
-                   unordered_map<int,int>& mp) {
+    TreeNode* build(vector<int>& A, int & i, int bound){
+        // base case
+        if(i==A.size() || A[i]>bound)return nullptr;
+        TreeNode* root = new TreeNode(A[i]);
+        i++;
 
-        if (inStart > inEnd || preStart > preEnd)
-            return nullptr;
+        root->left = build(A, i, root->val);
+        root->right = build(A, i, bound);
 
-        int rootValue = preorder[preStart];
-        int inRoot = mp[rootValue];
-
-        int numsToLeft = inRoot - inStart;
-
-        TreeNode* node = new TreeNode(rootValue);
-
-        node->left = func(
-            preorder, inorder,
-            inStart, inRoot - 1,
-            preStart + 1,
-            preStart + numsToLeft,
-            mp
-        );
-
-        node->right = func(
-            preorder, inorder,
-            inRoot + 1, inEnd,
-            preStart + numsToLeft + 1,
-            preEnd,
-            mp
-        );
-
-        return node;
+        return root;
     }
 
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-
-        vector<int> inorder = preorder;
-        sort(inorder.begin(), inorder.end());
-
-        unordered_map<int,int> mp;
-
-        for (int i = 0; i < inorder.size(); i++)
-            mp[inorder[i]] = i;
-
-        return func(
-            preorder, inorder,
-            0, inorder.size() - 1,
-            0, preorder.size() - 1,
-            mp
-        );
+        int i=0;
+        return build(preorder, i, INT_MAX);
     }
 };
