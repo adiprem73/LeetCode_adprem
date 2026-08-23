@@ -1,45 +1,30 @@
 class Solution {
 public:
-    #define ll long long
-#define push(a) push_back(a)
-#define f(i, a, b) for(int i=a;i<b;i++)
-#define all(x) x.begin(),x.end()
-#define vprint(v) for (auto& elem : v) cout << elem << " "; cout << endl;
-#define mprint(m) for (auto it:m) cout<<it.first<<" : "<<it.second<<endl; cout<<endl;
-#define vint vector<int>
-#define vstring vector<string>
-#define vmat vector<vector<int>>
-#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
-#define pii pair<int,int>
-#define pll pair<ll,ll>
-#define mii map<int,int>
-#define mll map<ll,ll>
+    int subarraySum(vector<int>& nums, int k) {
+        // for this problem we will try to implement the property of suffix sum
+        int n = nums.size();
+        // vector<int> prefix(n);
+        int sum = 0;
+        unordered_map<int, int> hash; // this is going to store the frequency of
+                                      // a certain prefix sum that has come
+        hash[0] =1;
+        int cnt =0;
+        for (int i = 0; i < n; i++) {
+            sum += nums[i];
 
-const int INF = 1e9;
-const ll MOD = 1e9+7;
+            int target = sum - k;
 
-int subarraySum(vector<int>& nums, int k) {
-    // sort(nums.begin(),nums.end());
-    mii mp;
-    int sum=0;
-    int count=0;
-    for(int i=0;i<nums.size();i++){
-        sum=sum+nums[i];
-        // cout<<sum<<" "<<nums[i]<<endl;
-        if(sum==k){
-            // cout<<"hi"<<i<<endl;
-            count++;
-        }
-        int x=sum-k;
-        if(mp.find(x)!=mp.end()){
-            // cout<<"bye"<<i<<endl;
-            count++;
-        }
+            if (hash.find(target) != hash.end()) {
+                cnt += hash[target];
+            }
 
-        if(mp.find(sum)==mp.end()){
-            mp[sum]=i;
+            hash[sum]++;
+            // prefix[i] = sum;
         }
+        // if at index i, prefix sum is x
+        // for a subarray of sum k, the rest of the sum of the subarray will be
+        // x-k
+        
+        return cnt;
     }
-    return count;
-}
 };
