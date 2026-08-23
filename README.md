@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0518-coin-change-ii/) | Medium |
 | [0540-single-element-in-a-sorted-array](https://github.com/adiprem73/LeetCode_adprem/tree/main/0540-single-element-in-a-sorted-array/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0704-binary-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0704-binary-search/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/adiprem73/LeetCode_adprem/tree/main/0733-flood-fill/) | Easy |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
+| [0560-subarray-sum-equals-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/adiprem73/LeetCode_adprem/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
@@ -399,6 +401,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [1871-jump-game-vii](https://github.com/adiprem73/LeetCode_adprem/tree/main/1871-jump-game-vii/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2121-intervals-between-identical-elements/) | Medium |
