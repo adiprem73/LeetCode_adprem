@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
 | [0200-number-of-islands](https://github.com/adiprem73/LeetCode_adprem/tree/main/0200-number-of-islands/) | Medium |
 | [0216-combination-sum-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0216-combination-sum-iii/) | Medium |
+| [0229-majority-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0229-majority-element-ii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0287-find-the-duplicate-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0322-coin-change](https://github.com/adiprem73/LeetCode_adprem/tree/main/0322-coin-change/) | Medium |
@@ -245,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/adiprem73/LeetCode_adprem/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0229-majority-element-ii/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -334,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/adiprem73/LeetCode_adprem/tree/main/0075-sort-colors/) | Medium |
 | [0148-sort-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0229-majority-element-ii/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
@@ -363,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/adiprem73/LeetCode_adprem/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0229-majority-element-ii/) | Medium |
 | [1189-maximum-number-of-balloons](https://github.com/adiprem73/LeetCode_adprem/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/adiprem73/LeetCode_adprem/tree/main/2529-maximum-count-of-positive-integer-and-negative-integer/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/adiprem73/LeetCode_adprem/tree/main/2833-furthest-point-from-origin/) | Easy |
@@ -893,4 +897,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
+## Boyer–Moore Majority Vote Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0229-majority-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0229-majority-element-ii/) | Medium |
 <!---LeetCode Topics End-->
