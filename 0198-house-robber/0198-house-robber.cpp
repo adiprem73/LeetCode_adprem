@@ -1,24 +1,24 @@
 class Solution {
 public:
-    int rob(vector<int>& nums) {
-    int n=nums.size();
-    if(n == 1) return nums[0];   // edge case
-    if(n == 2) return max(nums[0], nums[1]);
-    // vector<int> dp(n, -1);
-    // dp[0]= nums[0];
+    int func(int ind, vector<int>& nums, vector<int> &dp){
+        // base case
+        int n = nums.size();
+        if(ind >= n)return 0;
 
-    int prev2= nums[0];
-    int prev1= max(nums[0], nums[1]); 
-    for(int i=2;i<n;i++){
-        int pick = nums[i]+ prev2;
+        if(dp[ind]!= -1)return dp[ind];
 
-        int notpick = prev1;
+        // rob current house
+        int robCurrentHouse = nums[ind]+ func(ind+2, nums, dp);
 
-        int curr = max(pick, notpick);
+        // skip current house
+        int skipCurrentHouse = func(ind+1, nums, dp);
 
-        prev2= prev1;
-        prev1 = curr;
+        return dp[ind] = max(robCurrentHouse, skipCurrentHouse);
     }
-    return prev1;
+
+    int rob(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> dp(n, -1);
+        return func(0, nums, dp);
     }
 };
