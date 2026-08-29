@@ -200,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
 | [0127-word-ladder](https://github.com/adiprem73/LeetCode_adprem/tree/main/0127-word-ladder/) | Hard |
 | [0402-remove-k-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0402-remove-k-digits/) | Medium |
+| [0516-longest-palindromic-subsequence](https://github.com/adiprem73/LeetCode_adprem/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0556-next-greater-element-iii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0556-next-greater-element-iii/) | Medium |
 | [0721-accounts-merge](https://github.com/adiprem73/LeetCode_adprem/tree/main/0721-accounts-merge/) | Medium |
 | [0796-rotate-string](https://github.com/adiprem73/LeetCode_adprem/tree/main/0796-rotate-string/) | Easy |
@@ -541,6 +542,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0396-rotate-function](https://github.com/adiprem73/LeetCode_adprem/tree/main/0396-rotate-function/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0494-target-sum/) | Medium |
+| [0516-longest-palindromic-subsequence](https://github.com/adiprem73/LeetCode_adprem/tree/main/0516-longest-palindromic-subsequence/) | Medium |
 | [0518-coin-change-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/adiprem73/LeetCode_adprem/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/adiprem73/LeetCode_adprem/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
