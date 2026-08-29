@@ -1,18 +1,28 @@
 class Solution {
 public:
-    int longestCommonSubsequence(string text1, string text2) {
-    int n1=text1.length();
-    int n2=text2.length();
-    vector<vector<int>> dp(n1+1, vector<int>(n2+1, 0));
-    for(int ind1=1;ind1<n1+1;ind1++){
-        for(int ind2=1; ind2<n2+1;ind2++){
-            if(text1[ind1-1]==text2[ind2-1]){
-                dp[ind1][ind2]=1+ dp[ind1-1][ind2-1];
-            }else{
-                dp[ind1][ind2]= max(dp[ind1-1][ind2], dp[ind1][ind2-1]);
-            }
+    int func(int ind1, int ind2, string &text1, string &text2, vector<vector<int>> &dp){
+        // base case
+        if(ind1 == text1.size() or ind2 == text2.size()){
+            return 0;
         }
+
+        if(dp[ind1][ind2]!=-1)return dp[ind1][ind2];
+
+        int same =0, diff=0;
+        // same
+        if(text1[ind1]==text2[ind2]){
+            same = 1+func(ind1+1, ind2+1, text1, text2, dp);
+        }
+        else{
+            diff = max(func(ind1+1, ind2, text1, text2, dp),func(ind1, ind2+1, text1, text2, dp));
+
+        }
+
+        return dp[ind1][ind2]= same+diff;
     }
-    return dp[n1][n2];
-}
+
+    int longestCommonSubsequence(string text1, string text2) {
+        vector<vector<int>>dp(text1.size(), vector<int>(text2.size(), -1));
+        return func(0, 0, text1, text2, dp);
+    }
 };
