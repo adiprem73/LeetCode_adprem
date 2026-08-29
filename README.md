@@ -117,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2784-check-if-array-is-good](https://github.com/adiprem73/LeetCode_adprem/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2848-points-that-intersect-with-cars](https://github.com/adiprem73/LeetCode_adprem/tree/main/2848-points-that-intersect-with-cars/) | Easy |
 | [2874-maximum-value-of-an-ordered-triplet-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2874-maximum-value-of-an-ordered-triplet-ii/) | Medium |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/adiprem73/LeetCode_adprem/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
 | [3065-minimum-operations-to-exceed-threshold-value-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/3065-minimum-operations-to-exceed-threshold-value-i/) | Easy |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/3070-count-submatrices-with-top-left-element-and-sum-less-than-k/) | Medium |
@@ -359,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2780-minimum-index-of-a-valid-split](https://github.com/adiprem73/LeetCode_adprem/tree/main/2780-minimum-index-of-a-valid-split/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/adiprem73/LeetCode_adprem/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3169-count-days-without-meetings](https://github.com/adiprem73/LeetCode_adprem/tree/main/3169-count-days-without-meetings/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/adiprem73/LeetCode_adprem/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
@@ -628,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1559-detect-cycles-in-2d-grid](https://github.com/adiprem73/LeetCode_adprem/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/adiprem73/LeetCode_adprem/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/adiprem73/LeetCode_adprem/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+| [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/adiprem73/LeetCode_adprem/tree/main/2948-make-lexicographically-smallest-array-by-swapping-elements/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
