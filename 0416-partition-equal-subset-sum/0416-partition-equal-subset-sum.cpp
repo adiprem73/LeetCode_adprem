@@ -1,33 +1,27 @@
 class Solution {
 public:
-    bool canPartition(vector<int>& nums) {
-    int n=nums.size();
-    int sum=0;
-    for(auto it: nums){
-        sum+=it;
-    }    
-    if(sum%2!=0)return false; 
+    bool func(int ind, int curSum, int totalSum, vector<int>& nums, vector<vector<int>>& dp){
+        int n = nums.size();
 
-    vector<vector<int>> dp(n, vector<int>(sum/2 +1, -1));
+        // base case
+        if(ind>=n)return false;
+        if(curSum*2 == totalSum)return true;
 
-    for(int i=0;i<n;i++) dp[i][0]=1;
+        // dp case
+        if(dp[ind][curSum]!=-1)return dp[ind][curSum];
 
-    for(int i=0;i<sum/2+1;i++) dp[0][i]=( nums[0]==i);
+        bool pick=false, notPick = false;
+        pick = func(ind+1, curSum + nums[ind] , totalSum, nums, dp);
 
-    for(int i=1;i<n;i++){
-        for(int j=1;j<sum/2+1;j++){
-            bool notPick = dp[i-1][j];
+        notPick = func(ind+1, curSum , totalSum, nums, dp);
 
-            bool pick=false;
-            if(nums[i]<= j){
-                pick= dp[i-1][j-nums[i]];
-            }
-
-            dp[i][j]= pick||notPick;
-        }
+        return dp[ind][curSum] =  pick || notPick;
     }
-    return dp[n-1][sum/2];
 
-
-}
+    bool canPartition(vector<int>& nums) {
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+        int n = nums.size();
+        vector<vector<int>> dp(n+1, vector<int>(sum+1, -1));
+        return func(0, 0, sum, nums, dp);
+    }
 };
