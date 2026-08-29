@@ -198,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/adiprem73/LeetCode_adprem/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/adiprem73/LeetCode_adprem/tree/main/0022-generate-parentheses/) | Medium |
 | [0079-word-search](https://github.com/adiprem73/LeetCode_adprem/tree/main/0079-word-search/) | Medium |
+| [0115-distinct-subsequences](https://github.com/adiprem73/LeetCode_adprem/tree/main/0115-distinct-subsequences/) | Hard |
 | [0127-word-ladder](https://github.com/adiprem73/LeetCode_adprem/tree/main/0127-word-ladder/) | Hard |
 | [0402-remove-k-digits](https://github.com/adiprem73/LeetCode_adprem/tree/main/0402-remove-k-digits/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/adiprem73/LeetCode_adprem/tree/main/0516-longest-palindromic-subsequence/) | Medium |
@@ -533,6 +534,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0062-unique-paths](https://github.com/adiprem73/LeetCode_adprem/tree/main/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0064-minimum-path-sum/) | Medium |
+| [0115-distinct-subsequences](https://github.com/adiprem73/LeetCode_adprem/tree/main/0115-distinct-subsequences/) | Hard |
 | [0118-pascals-triangle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0118-pascals-triangle/) | Easy |
 | [0120-triangle](https://github.com/adiprem73/LeetCode_adprem/tree/main/0120-triangle/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/adiprem73/LeetCode_adprem/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
