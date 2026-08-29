@@ -1,41 +1,29 @@
 class Solution {
 public:
-static const int INF = 1e9;
+    int func(int ind, int amountLeft, vector<int>& coins, vector<vector<int>>& dp){
+        int n = coins.size();
+        // base case
+        
+        if(ind == n){
+            if(amountLeft == 0)return 0;
+            else return 1e7;
+        }
 
-// minimum number of coins required to make up the 'amount' by using coins up untill that index
-int func(int ind, int amount, vector<int> &coins, vector<vector<int>> &dp)
-{
-    // base case
-    int n = coins.size();
-    if(ind ==  n){
-        if(amount == 0)return 0; // doubt
-        return INF;
+        if(dp[ind][amountLeft] != -1)return dp[ind][amountLeft];
+        int pick=1e7, notPick=1e7;
+
+        if(amountLeft >= coins[ind]){
+            pick = 1 + func(ind, amountLeft-coins[ind], coins, dp);
+        }        
+
+        notPick = func(ind+1, amountLeft, coins, dp);
+
+        return dp[ind][amountLeft] = min(pick, notPick);
     }
 
-    // dp base case
-    if(dp[ind][amount] != -1){
-        return dp[ind][amount];
+    int coinChange(vector<int>& coins, int amount) {
+        int n = coins.size();
+        vector<vector<int>> dp(n, vector<int> (amount+1, -1));
+        return func(0, amount, coins, dp)==1e7? -1: func(0, amount, coins, dp);
     }
-
-    // for every index we have like two options, one is to take the element from that index and stay there... and the other is to just move ahead without taking
-    int pick = INF;
-    if(coins[ind]<=amount){
-        pick = func(ind, amount - coins[ind], coins, dp) + 1;
-    }
-
-    int notPick = func(ind + 1, amount, coins, dp);
-
-    return dp[ind][amount] = min(pick, notPick);
-}
-
-int coinChange(vector<int> &coins, int amount)
-{
-    int n = coins.size();
-    vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
-    int ans = func(0, amount, coins, dp);
-    
-    if (ans == INF)
-        return -1;
-    return ans;
-}
 };
