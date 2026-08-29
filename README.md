@@ -864,6 +864,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0056-merge-intervals](https://github.com/adiprem73/LeetCode_adprem/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/adiprem73/LeetCode_adprem/tree/main/0075-sort-colors/) | Medium |
+| [0455-assign-cookies](https://github.com/adiprem73/LeetCode_adprem/tree/main/0455-assign-cookies/) | Easy |
 ## Bubble Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
