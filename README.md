@@ -263,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0229-majority-element-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0229-majority-element-ii/) | Medium |
 | [0350-intersection-of-two-arrays-ii](https://github.com/adiprem73/LeetCode_adprem/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/adiprem73/LeetCode_adprem/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [0460-lfu-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0460-lfu-cache/) | Hard |
 | [0496-next-greater-element-i](https://github.com/adiprem73/LeetCode_adprem/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/adiprem73/LeetCode_adprem/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/adiprem73/LeetCode_adprem/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
@@ -494,6 +495,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0328-odd-even-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0328-odd-even-linked-list/) | Medium |
+| [0460-lfu-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0460-lfu-cache/) | Hard |
 | [0725-split-linked-list-in-parts](https://github.com/adiprem73/LeetCode_adprem/tree/main/0725-split-linked-list-in-parts/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
@@ -503,6 +505,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/adiprem73/LeetCode_adprem/tree/main/0155-min-stack/) | Medium |
 | [0173-binary-search-tree-iterator](https://github.com/adiprem73/LeetCode_adprem/tree/main/0173-binary-search-tree-iterator/) | Medium |
+| [0460-lfu-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0460-lfu-cache/) | Hard |
 | [0901-online-stock-span](https://github.com/adiprem73/LeetCode_adprem/tree/main/0901-online-stock-span/) | Medium |
 | [1656-design-an-ordered-stream](https://github.com/adiprem73/LeetCode_adprem/tree/main/1656-design-an-ordered-stream/) | Easy |
 ## Data Stream
@@ -963,4 +966,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0146-lru-cache/) | Medium |
+| [0460-lfu-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0460-lfu-cache/) | Hard |
 <!---LeetCode Topics End-->
