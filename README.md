@@ -419,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/adiprem73/LeetCode_adprem/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0239-sliding-window-maximum](https://github.com/adiprem73/LeetCode_adprem/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0743-network-delay-time](https://github.com/adiprem73/LeetCode_adprem/tree/main/0743-network-delay-time/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/adiprem73/LeetCode_adprem/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -481,6 +482,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0023-merge-k-sorted-lists](https://github.com/adiprem73/LeetCode_adprem/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0025-reverse-nodes-in-k-group](https://github.com/adiprem73/LeetCode_adprem/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0061-rotate-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0061-rotate-list/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
@@ -720,6 +722,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/adiprem73/LeetCode_adprem/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0053-maximum-subarray](https://github.com/adiprem73/LeetCode_adprem/tree/main/0053-maximum-subarray/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/adiprem73/LeetCode_adprem/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/adiprem73/LeetCode_adprem/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
@@ -813,6 +816,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/adiprem73/LeetCode_adprem/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0148-sort-list](https://github.com/adiprem73/LeetCode_adprem/tree/main/0148-sort-list/) | Medium |
 | [0493-reverse-pairs](https://github.com/adiprem73/LeetCode_adprem/tree/main/0493-reverse-pairs/) | Hard |
 ## Ordered Set
@@ -967,4 +971,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0146-lru-cache/) | Medium |
 | [0460-lfu-cache](https://github.com/adiprem73/LeetCode_adprem/tree/main/0460-lfu-cache/) | Hard |
+## Tournament Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/adiprem73/LeetCode_adprem/tree/main/0023-merge-k-sorted-lists/) | Hard |
 <!---LeetCode Topics End-->
