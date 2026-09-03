@@ -1,38 +1,42 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-    map<char,int> mp;
-    for(auto it: tasks){
-        mp[it]++;
-    }
+        // greedily we decide that the one with the most frequency, we will need to process those tasks first, so that they dont accumulate at the last and increase the overall time.
+        int len = tasks.size();
+        unordered_map<int,int> mp;
+        for(int i=0;i<len;i++){
+            mp[tasks[i]] ++;
+        }
+        // we will need a max_heap
+        priority_queue<int> pq;
+        int time =0;
+        for(auto it: mp){
+            pq.push(it.second);
+        }
+        while(!pq.empty()){
 
-    priority_queue<pair<int, char>> pq;
-    for(auto it: mp){
-        pq.push({it.second, it.first});
-    }
-    int cnt=0;
+            vector<int> temp;
+            for(int i=1;i<=n+1;i++){
+                if(!pq.empty()){
+                    int freq = pq.top();
+                    pq.pop();
+                    freq--;
+                    temp.push_back(freq);
+                }
+            }
 
-    while(!pq.empty()){
-        vector<pair<int, char>> temp;  //this stores the pairs which still ahe freq left so that we can push them back in the pq after the cycle completes
-        int cycle=n+1; //if n=2, then three tasks can be schedules inside the sma ecycle since this way the distance bwteen two same tasks will be atleast 2
+            for(int & f: temp){
+                if(f>0)pq.push(f);
+            }
 
-        while(cycle>0 && !pq.empty()){
-            auto it= pq.top(); 
-            pq.pop();
-
-            cnt++; 
-            it.first--;
-
-            if(it.first>0) temp.push_back(it);
-
-            cycle--;
+            if(pq.empty()){
+                time += temp.size();
+            }else{
+                time += n+1;
+            }
         }
 
-        for(auto t: temp)pq.push(t); //here we push the elements of the temp back into the pq
-
-        if (!pq.empty())cnt+=cycle;
+        return time;
+        
     }
-    return cnt;
-    
-}
 };
