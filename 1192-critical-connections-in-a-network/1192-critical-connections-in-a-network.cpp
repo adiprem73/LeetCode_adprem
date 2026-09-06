@@ -42,7 +42,7 @@ vector<vector<int>> criticalConnections(int n, vector<vector<int>> &connections)
 
     for(int i=0;i<n;i++){
         if(!vis[i]){
-            dfs(0, -1, vis, adj, tin, low, bridges);
+            dfs(i, -1, vis, adj, tin, low, bridges);
         }
     }
     
